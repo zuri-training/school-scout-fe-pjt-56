@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+body{
+    margin: 0;
+    
+}
+.container{
+    width: 95%;
+    height: 91.97px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background:#10143B;
+    justify-content: space-between;
+}
+nav{
+    
+    width: 1000%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+nav ul{
+    
+    color: white;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+nav li{
+    margin: 0 .5em;
+}
+nav a{
+    
+    color: white;
+    text-decoration: none;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 10em;
+}
+.icon{
+    padding: .2em;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.footer-container{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    
+    
+}
+.footer-columns{
+    
+    background:#10143B;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    height: 248.48px;
+    margin: auto;
+}
+.col{
+    
+    
+    align-items: center;
+    margin: 2em 0;
+}
+div ul{
+    list-style: none;
+    padding: 0;
+}
+div li{
+    margin: .9em;
+
+}
+div a{
+    text-decoration: none;
+    
+}
+div a, .footer-container{
+    color: white;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+} 
+input{
+    border: 1px solid red;
+    width: 80%;
+    height: 2em;
+    margin: 0.5em 0;
+
+}
+.bottom{
+    padding: 0;
+    margin: 0;
+    background:#0c0f2b ;
+    text-align: center;
+    height: 4em;
+    padding-top: 2em;
+}
+form{
+    padding-top: 1em;
+}
