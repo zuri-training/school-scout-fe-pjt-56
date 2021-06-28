@@ -31,7 +31,7 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="landing-und-cont">
                 <div className='undecided-container landing-padding'>
                     <div className='left'>
                         <div>
@@ -72,8 +72,8 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
-            <section>
-                <div className="featured-container landing-padding">
+            <section className="landing-padding">
+                <div className="featured-container">
                     <div>
                         <div>
                             <h2>Featured Schools</h2>
@@ -86,8 +86,8 @@ export const Home = () => {
                     <div></div>
                 </div>
             </section>
-            <section>
-                <div className="testimonials-container landing-padding">
+            <section className="landing-testimonial-section landing-padding">
+                <div className="testimonials-container">
                     <div>
                         <h2 className='texts'>Testimonials</h2>
                         <p className='texts'>What people that have used this website have to say about us.</p>
@@ -100,8 +100,8 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
-            <section>
-                <div className="articles-container landing-padding">
+            <section className="landing-articles-section landing-padding">
+                <div className="articles-container">
                     <div>
                         <div>
                             <h2 className='texts'>Articles</h2>
