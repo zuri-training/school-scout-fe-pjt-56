@@ -1,121 +1,122 @@
 import React from 'react'
+import SiteOptions from '../pages/Landing page/site options/SiteOptions'
+import FeaturedSchools from '../pages/Landing page/featured schools/FeaturedSchools'
+import Testimonials from '../pages/Landing page/Testimonials/Testimonials'
+import Articles from '../pages/Landing page/Articles/Articles'
+import Header from '../shared/ScholarshipHeaderBlue/ScholarshipHeaderBlue'
+import './Home.css'
 
-const Home = () => {
+import image1 from '../pages/Landing page/image1.png'
+import image2 from '../pages/Landing page/image2.png'
+import image3 from '../pages/Landing page/image3.png'
+import undecided from '../pages/Landing page/undecided.png'
+
+export const Home = () => {
     return (
-        <>
-            <div class="container">
-                <h2>Find The Best</h2>
-                <p>Begin your research here now, and make the best decision ever!</p>
-                <div class="column">
-                    <div class="col"><img src="Explore schools.png" alt="Explore schools"/><p>Explore Schools</p></div>
-                    <div class="col"><img src="compare schools.png" alt="Compare schools"/> <p>Compare Schools</p></div>
-                    <div class="col"><img src="career advisory.png" alt=""/><p>Career Advisory</p></div>
-                    <div class="col"><img src="find schorlaship.png" alt=""/><p>Find Schorlaship</p></div>
-                </div>
-            </div>
-            <section class="undecided">
-                <div class="undecided-container">
-                    <div class="undecided-column">
-                        <div class="undecided-col">
-                            <h2>undecided about what<br/> to study?</h2>
-                            <p>let's help you discover what's best for you in 3 easy steps</p>
-                        </div>
-                        <div class="undecided-col-number">
-                            <img src="1.png" alt=""/>
-                            <img src="2.png" alt=""/>
-                            <img src="3.png" alt=""/>
-                        </div>
-                        
-                        
-                    </div>
-                    <div class="undecided-column">
-                        <img src="undecided.png" alt=""/>
-                    </div>
-                </div>
-                {/* <!--Featured school--> */}
-                <div class="container">
-                    <h2>Featured Schools</h2>
-                    <div class="column">
-                        <div class="col"><img src="ui.png" alt="Explore schools"/><p>University of Ibadan, Oyo State</p></div>
-                        <div class="col"><img src="uni ilorin.png" alt="Compare schools"/> <p>University of Ilorin, Kwara State</p></div>
-                        <div class="col"><img src="lasu.png" alt=""/><p>Lagos State University, Lagos State</p></div>
-                        <div class="col"><img src="covenant uni.png" alt=""/><p>Covenant University, Ogun State</p></div>
-                    </div>
-                </div>
-
-                {/* <!--Featured school end--> */}
-
+        <div>
+            <section>
+                
             </section>
-            <section class="testimonials">
-                <div class="testimonials-container">
-                    <h2>Testimonials</h2>
-                    <p>what people that have used this website have to say about us</p>
-                    <div class="testimonials-container-2">
-                        <div class="testimonials-column">
-                            <div class="testimonials-col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis sed<br/>
-                                ut maiores asperiores eum at blanditiis debitis sequi. Fuga, possimus.</div>
-                            <div class="testimonials-col">
-                                <div class="testimonial-uni-pic">
-                                    <div class="testimonial-uni">
-                                        <p>Pauline Imade</p>
-                                        <p>university of Lagos</p>
+            <Header/>
+            <section className='options landing-padding'>
+                <div className="options-container">
+                    <div className='options-top-section'>
+                        <div className='options-top-text'>
+                            <h2 className='texts'>Find the Best</h2>
+                            <p className='texts'>Begin your research here now, and make the best decision ever</p>
+                        </div>
+                    </div>
+                    <div className='options'>
+                        <SiteOptions/>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className='undecided-container landing-padding'>
+                    <div className='left'>
+                        <div>
+                            <h2 className='texts'>Undecided about what course to study</h2>
+                            <p className='texts'>let's help you discover what's best for you in 3 easy steps</p>
+                        </div>
+                            <div className='numbers'>
+                                <div>
+                                    <div className="img-number-wrapper">
+                                        <img src={image1} alt="" />
                                     </div>
-                                    <img src="testimonial 1.png" alt=""/>
+                                    
+                                    <p className='texts'>Get started</p>
+                                </div>
+
+                                <div>
+                                    <div className="img-number-wrapper">
+                                        <img src={image2} alt="" />
+                                    </div>
+                                
+                                    <p className='texts'>Answer a few questions</p>
+                                </div>
+
+                                <div>
+                                    <div className="img-number-wrapper">
+                                        <img src={image3} alt="" />
+                                    </div>
+                                
+                                    <p className='texts'>Voila! Your results are ready</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="testimonials-column">
-                            <div class="testimonials-col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis sed<br/>
-                                ut maiores asperiores eum at blanditiis debitis sequi. Fuga, possimus.</div>
-                            <div class="testimonials-col">
-                                <div class="testimonial-uni-pic">
-                                    <div class="testimonial-uni">
-                                        <p>Pauline Imade</p>
-                                        <p>university of Lagos</p>
-                                    </div>
-                                    <img src="testimonial 2.png" alt=""/>
-                                </div>
+                        <div>
+                            <button className='undecided'>Get Started</button>
+                        </div>      
                     </div>
-
-                        </div>
+                    <div className='undecided4'>
+                        <img src={undecided} alt="" />
                     </div>
-                    <button class="testimonials-cta">see more</button>
                 </div>
             </section>
-            {/* <!--Articles--> */}
-            <div class="articles-container">
-                <h2>Articles</h2>
-                <p>i bet you would love to read these articles, selected just for you.</p>
-                <div class="article-columns">
-                    <div class="article-column-1">
-                        <img src="medicine.png" alt=""/>
+            <section>
+                <div className="featured-container landing-padding">
+                    <div>
                         <div>
-                            <h3>Why study Medicine???</h3>
-                            <p>
-                                When I was much younger,
-                                I had wanted to study medicine, but then when I grew up,
-                                I realized I had an abject fear of blood. Lol.
-                                Dont laugh at me please. I don’t know... <a href="./">Read more</a>
-                            </p>
+                            <h2>Featured Schools</h2>
                         </div>
+                        <div></div>
                     </div>
-                    <div class="article-column-1">
-                        <img src="schorlaship.png" alt=""/>
-                        <div>
-                            <h3>Why study Medicine???</h3>
-                            <p>
-                                When I was much younger,
-                                I had wanted to study medicine, but then when I grew up,
-                                I realized I had an abject fear of blood. Lol.
-                                Dont laugh at me please. I don’t know... <a href="./">Read more</a>
-                            </p>
-                        </div>
+                    <div className='schools'>
+                        <FeaturedSchools/>
+                    </div>
+                    <div></div>
+                </div>
+            </section>
+            <section>
+                <div className="testimonials-container landing-padding">
+                    <div>
+                        <h2 className='texts'>Testimonials</h2>
+                        <p className='texts'>What people that have used this website have to say about us.</p>
+                    </div>
+                    <div className='testimonials'>
+                        <Testimonials/>
+                    </div>
+                    <div>
+                        <button>See More</button>
                     </div>
                 </div>
-            </div>
-            {/* </div></div>
-            </div> */}
-        </>
+            </section>
+            <section>
+                <div className="articles-container landing-padding">
+                    <div>
+                        <div>
+                            <h2 className='texts'>Articles</h2>
+                            <p className='texts'>i bet you would want to read these articles, selected for you</p>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div className='articles'>
+                        <Articles/>
+                    </div>
+                    <div></div>
+                </div>
+            </section>
+
+        </div>
     )
 }
 
