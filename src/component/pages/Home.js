@@ -1,16 +1,16 @@
 import React from 'react'
 
-const home = () => {
+const Home = () => {
     return (
         <>
             <div class="container">
                 <h2>Find The Best</h2>
                 <p>Begin your research here now, and make the best decision ever!</p>
                 <div class="column">
-                    <div class="col"><img src="Explore schools.png" alt="Explore schools"><p>Explore Schools</p></div>
-                    <div class="col"><img src="compare schools.png" alt="Compare schools"> <p>Compare Schools</p></div>
-                    <div class="col"><img src="career advisory.png" alt=""><p>Career Advisory</p></div>
-                    <div class="col"><img src="find schorlaship.png" alt=""><p>Find Schorlaship</p></div>
+                    <div class="col"><img src="Explore schools.png" alt="Explore schools"/><p>Explore Schools</p></div>
+                    <div class="col"><img src="compare schools.png" alt="Compare schools"/> <p>Compare Schools</p></div>
+                    <div class="col"><img src="career advisory.png" alt=""/><p>Career Advisory</p></div>
+                    <div class="col"><img src="find schorlaship.png" alt=""/><p>Find Schorlaship</p></div>
                 </div>
             </div>
             <section class="undecided">
@@ -32,7 +32,7 @@ const home = () => {
                         <img src="undecided.png" alt=""/>
                     </div>
                 </div>
-                <!--Featured school-->
+                {/* <!--Featured school--> */}
                 <div class="container">
                     <h2>Featured Schools</h2>
                     <div class="column">
@@ -43,7 +43,7 @@ const home = () => {
                     </div>
                 </div>
 
-                <!--Featured school end-->
+                {/* <!--Featured school end--> */}
 
             </section>
             <section class="testimonials">
@@ -82,7 +82,7 @@ const home = () => {
                     <button class="testimonials-cta">see more</button>
                 </div>
             </section>
-            <!--Articles-->
+            {/* <!--Articles--> */}
             <div class="articles-container">
                 <h2>Articles</h2>
                 <p>i bet you would love to read these articles, selected just for you.</p>
@@ -95,28 +95,28 @@ const home = () => {
                                 When I was much younger,
                                 I had wanted to study medicine, but then when I grew up,
                                 I realized I had an abject fear of blood. Lol.
-                                Dont laugh at me please. I don’t know... <a href="">Read more</a>
+                                Dont laugh at me please. I don’t know... <a href="./">Read more</a>
                             </p>
                         </div>
                     </div>
                     <div class="article-column-1">
-                        <img src="schorlaship.png" alt="">
+                        <img src="schorlaship.png" alt=""/>
                         <div>
                             <h3>Why study Medicine???</h3>
                             <p>
                                 When I was much younger,
                                 I had wanted to study medicine, but then when I grew up,
                                 I realized I had an abject fear of blood. Lol.
-                                Dont laugh at me please. I don’t know... <a href="">Read more</a>
+                                Dont laugh at me please. I don’t know... <a href="./">Read more</a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            </div></div>
-            </div>
+            {/* </div></div>
+            </div> */}
         </>
     )
 }
 
-export default home
+export default Home

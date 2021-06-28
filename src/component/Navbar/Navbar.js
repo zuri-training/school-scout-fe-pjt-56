@@ -11,18 +11,18 @@ class Navbar extends Component{
                         <nav>
                             <div>
                                 <ul className="nav-center" >
-                                    <li><a href="#">Explore schools</a></li>
-                                    <li><a href="#">Compare schools</a></li>
-                                    <li><a href="#">Find scholarship</a></li>
-                                    <li><a href="#">Career advisory</a></li>
+                                    <li><a href="./">Explore schools</a></li>
+                                    <li><a href="./">Compare schools</a></li>
+                                    <li><a href="./">Find scholarship</a></li>
+                                    <li><a href="./">Career advisory</a></li>
                                 </ul>
                             </div>
                         <div>
                             <ul className="nav-right">
-                                <li><a href="#"><i className=" icon fas fa-search"></i>Search</a></li>
-                                <li><a href="#"><i className=" icon fas fa-globe"></i>Language</a></li>
-                                <li><a href="#"><i className=" icon fas fa-user"></i>User</a></li>
-                                <li><a href="#"><i className=" icon fas fa-bookmark"></i>Saved</a></li>
+                                <li><a href="./"><i className=" icon fas fa-search"></i>Search</a></li>
+                                <li><a href="./"><i className=" icon fas fa-globe"></i>Language</a></li>
+                                <li><a href="./"><i className=" icon fas fa-user"></i>User</a></li>
+                                <li><a href="./"><i className=" icon fas fa-bookmark"></i>Saved</a></li>
                             </ul>
                         </div>
                         </nav>
@@ -41,18 +41,18 @@ class Navbar extends Component{
                         </div>
                         <div className="col col-1">
                             <ul>
-                                <li><a href="">About us</a></li>
-                                <li><a href="">Explore schools</a></li>
-                                <li><a href="">Compare schools</a></li>
-                                <li><a href="">Find schorlaship</a></li>
-                                <li><a href=""> Career advisory</a></li>
+                                <li><a href="./">About us</a></li>
+                                <li><a href="./">Explore schools</a></li>
+                                <li><a href="./">Compare schools</a></li>
+                                <li><a href="./">Find schorlaship</a></li>
+                                <li><a href="./"> Career advisory</a></li>
                             </ul>
                         </div>
                         <div className="col col-1">
                             <ul>
-                                <li><a href="">Testimonials</a></li>
-                                <li><a href="">Review</a></li>
-                                <li><a href="">Articles/blog</a></li>
+                                <li><a href="./">Testimonials</a></li>
+                                <li><a href="./">Review</a></li>
+                                <li><a href="./">Articles/blog</a></li>
                             </ul>
                         </div>
                         <div className="col col-2">
