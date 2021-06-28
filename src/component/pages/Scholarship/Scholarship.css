@@ -883,11 +883,13 @@ svg:hover {
 
 .safety-image {
   width: 100%;
+  margin-bottom: 16px;
 }
 
 .safety-caption {
-  margin-top: 16px;
+  /* margin-top: 16px; */
   margin-bottom: 5px;
+  margin-top: 0;
 }
 
 .safety-caption a {
@@ -1192,11 +1194,17 @@ svg:hover {
   background: grey;
     border-radius: 15px;
     overflow: hidden;
+    transition: all 0.3s;
 }
+
+.schlshp-asd-card-body:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
 .schlshp-asd-card-body a {
   text-decoration: none;
 }
-
 
 .schlshp-asd-card-img {
   display: flex;
