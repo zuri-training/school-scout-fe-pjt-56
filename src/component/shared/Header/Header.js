@@ -15,7 +15,7 @@ export const Header = () => {
     return (
         <header className="schpg-container nav-hero-blend">
             <nav className="block block-center nav-container">
-                <img className="logo" src={ logo } alt="" />
+                <Link to="/"><img className="logo" src={ logo } alt="" /></Link>
                 <ul className="nav-links">
                     <li className="nav-link">
                         <Link to="/">Explore schools</Link>

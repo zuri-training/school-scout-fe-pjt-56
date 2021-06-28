@@ -12,7 +12,7 @@ export const ScholarshipHeaderBlue = () => {
   return (
     <header className=".schpg-container hblue-schpg-container">
       <nav className="block block-center nav-container">
-        <img className="logo" src={logo} alt="" />
+        <Link to="/"><img className="logo" src={logo} alt="" /></Link>
         <ul className="nav-links">
           <li className="nav-link">
             <Link to="/">Explore schools</Link>
