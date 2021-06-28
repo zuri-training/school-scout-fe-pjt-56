@@ -12,42 +12,42 @@ export const ScholarshipHeaderBlue = () => {
   return (
     <header className=".schpg-container hblue-schpg-container">
       <nav className="block block-center nav-container">
-        <Link to="/"><img className="logo" src={logo} alt="" /></Link>
+        <Link to={process.env.PUBLIC_URL + '/'}><img className="logo" src={logo} alt="" /></Link>
         <ul className="nav-links">
           <li className="nav-link">
-            <Link to="/">Explore schools</Link>
+            <Link to={process.env.PUBLIC_URL + '/'}>Explore schools</Link>
           </li>
           <li className="nav-link">
-            <Link to="/">Compare schools</Link>
+            <Link to={process.env.PUBLIC_URL + '/'}>Compare schools</Link>
           </li>
           <li className="nav-link">
-            <Link to="/scholarship">Find scholarship</Link>
+            <Link to={process.env.PUBLIC_URL + '/scholarship'}>Find scholarship</Link>
           </li>
           <li className="nav-link">
-            <Link to="/career-advisory">Career advisory</Link>
+            <Link to={process.env.PUBLIC_URL + '/career-advisory'}>Career advisory</Link>
           </li>
         </ul>
         <ul className="nav-links">
           <li className="nav-link">
-            <Link to="/" className="nav-link-with-image">
+            <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
               <img className="svg-icon" src={search} alt="search icon" />
               Search
             </Link>
           </li>
           <li className="nav-link">
-            <Link to="/" className="nav-link-with-image">
+            <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
               <img className="svg-icon" src={globe} alt="" />
               Language
             </Link>
           </li>
           <li className="nav-link">
-            <Link to="/" className="nav-link-with-image">
+            <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
               <img className="svg-icon" src={user} alt="" />
               User
             </Link>
           </li>
           <li className="nav-link">
-            <Link to="/" className="nav-link-with-image">
+            <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
               <img className="svg-icon" src={bookmark} alt="" />
               Saved
             </Link>

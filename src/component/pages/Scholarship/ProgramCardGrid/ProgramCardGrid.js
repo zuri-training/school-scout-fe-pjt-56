@@ -11,17 +11,17 @@ const ProgramCardGrid = () => {
         <div className="programs">
           <div className="program-nav">
             <p className="program__text">Search scholarships by programs</p>
-            <Link to="./" className="btn btn-tab btn-secondary">
+            <Link to={process.env.PUBLIC_URL + '/'} className="btn btn-tab btn-secondary">
               Undergraduate
             </Link>
-            <Link to="./" className="btn btn-tab">
+            <Link to={process.env.PUBLIC_URL + '/'} className="btn btn-tab">
               Postgraduate
             </Link>
           </div>
           <div className="grid grid-cols-3">
             <ScholarshipCard></ScholarshipCard>
           </div>
-          <Link to="/scholarship-list" className="btn btn-large btn-primary btn-more">
+          <Link to={process.env.PUBLIC_URL + '/scholarship-list'} className="btn btn-large btn-primary btn-more">
             See more
           </Link>
         </div>
