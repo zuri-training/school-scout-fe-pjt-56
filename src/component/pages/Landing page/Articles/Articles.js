@@ -8,12 +8,12 @@ const articlesData=[
     {
         image:medicine,
         title:'Why study medicine',
-        content:`Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim minima eaque suscipit molestiae maiores porro cumque voluptatem corporis illo consequatur!`
+        content:`When I was much younger, I had wanted to study medicine, but then when I grew up, I realized I had an abject fear of blood. Lol. Dont laugh at me please. I don’t know... Read more`
     },
     {
         image:schorlaship,
         title:'I got the schorlaship yay!!',
-        content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim minima eaque suscipit molestiae maiores porro cumque voluptatem corporis illo consequatur!'
+        content:'I guess you would be wondering why I am this excited. Let me give you gist. By the way, I came with ways on how you can easily get that scholarship. Oh yes, I am that nice. Lol. Back to the gist oo, I have... Read more'
     }
 
 ]
