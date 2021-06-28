@@ -15,42 +15,42 @@ export const Header = () => {
     return (
         <header className="schpg-container nav-hero-blend">
             <nav className="block block-center nav-container">
-                <Link to="/"><img className="logo" src={ logo } alt="" /></Link>
+                <Link to={process.env.PUBLIC_URL + '/'}><img className="logo" src={ logo } alt="" /></Link>
                 <ul className="nav-links">
                     <li className="nav-link">
-                        <Link to="/">Explore schools</Link>
+                        <Link to={process.env.PUBLIC_URL + '/'}>Explore schools</Link>
                     </li>
                     <li className="nav-link">
-                        <Link to="/">Compare schools</Link>
+                        <Link to={process.env.PUBLIC_URL + '/'}>Compare schools</Link>
                     </li>
                     <li className="nav-link">
-                        <Link className="hello" to="/scholarship">Find scholarship</Link>
+                        <Link className="hello" to={process.env.PUBLIC_URL + '/scholarship'}>Find scholarship</Link>
                     </li>
                     <li className="nav-link">
-                        <Link to="/">Career advisory</Link>
+                        <Link to={process.env.PUBLIC_URL + '/'}>Career advisory</Link>
                     </li>
                 </ul>
                 <ul className="nav-links">
                     <li className="nav-link">
-                        <Link to="/" className="nav-link-with-image">
+                        <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
                             <img className="svg-icon" src={ search } alt="search icon" />
                             Search
                         </Link>
                     </li>
                     <li className="nav-link">
-                        <Link to="/" className="nav-link-with-image">
+                        <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
                             <img className="svg-icon" src={ globe } alt="" />                         
                             Language
                         </Link>
                     </li>
                     <li className="nav-link">
-                        <Link to="/" className="nav-link-with-image">
+                        <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
                             <img className="svg-icon" src={ user } alt="" />                           
                             User
                         </Link>
                     </li>
                     <li className="nav-link">
-                        <Link to="/" className="nav-link-with-image">
+                        <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
                             <img className="svg-icon" src={ bookmark } alt="" />                           
                             Saved
                         </Link>
@@ -93,7 +93,7 @@ export const Header = () => {
                                 <option value="doctorate">Australia</option>
                             </select>
                         </div>
-                        <Link to="/" className="btn btn-small btn-primary btn-search">Search</Link>
+                        <Link to={process.env.PUBLIC_URL + '/'} className="btn btn-small btn-primary btn-search">Search</Link>
                     </form>
                 </div>
             </section>

@@ -26,16 +26,18 @@ function App() {
         {/* <ScholarshipListCardGrid />
             <ScholarshipAsideCardGrid /> */}
           <Switch>
-            <Route exact path="/scholarship">
+          {/* <Route path={process.env.PUBLIC_URL + '/'}></Route> */}
+            <Route exact path={process.env.PUBLIC_URL + '/scholarship'}>
               {/* <Home /> */}
               <Scholarship />
             </Route>
-            <Route exact path="/scholarship-list">
+            <Route exact path={process.env.PUBLIC_URL + '/scholarship-list'}>
               {/* <Home /> */}
               <ScholarshipHeaderBlue />
               <ScholarshipList />
             </Route>
-            <Route exact path="/">
+            {/* <Route exact path={process.env.PUBLIC_URL + '/'}> */}
+            <Route path='/'>
               <Home />
             </Route>
           </Switch>
