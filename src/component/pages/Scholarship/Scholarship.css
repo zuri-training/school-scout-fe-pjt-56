@@ -429,6 +429,13 @@ p {
 }
 
 /* header section */
+.hblue-schpg-container {
+  background: var(--color-main);
+  padding: 33.99px 100px;
+    /* padding-top: 33.99px; */
+    /* padding-bottom: 33.99px; */
+}
+
 .nav-hero-blend {
   /* content: url(/images/hero.jpg); */
   background-image: url(./images/hero.jpg);
