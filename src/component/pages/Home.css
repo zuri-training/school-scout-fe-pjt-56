@@ -112,7 +112,7 @@
 }
 
 /* Button */
-button {
+.hm-btn-see, .hm-btn.undecided {
     background: #cfa348;
     border-radius: 10px;
     padding: 25px;
