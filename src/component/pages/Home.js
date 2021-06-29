@@ -102,7 +102,7 @@ export const Home = () => {
                                 </div>
                             </div>
                         <div>
-                            <button className='undecided'>Get Started</button>
+                            <button className='hm-btn undecided'>Get Started</button>
                         </div>      
                     </div>
                     <div className='undecided4'>
@@ -134,7 +134,7 @@ export const Home = () => {
                         <Testimonials/>
                     </div>
                     <div>
-                        <button>See More</button>
+                        <button className="hm-btn-see">See More</button>
                     </div>
                 </div>
             </section>
