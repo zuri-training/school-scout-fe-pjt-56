@@ -9,6 +9,7 @@ import { ScholarshipAsideCardGrid } from "./component/pages/ScholarshipList/Scho
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./component/pages/Home";
 import { ScholarshipHeaderBlue } from './component/shared/ScholarshipHeaderBlue/ScholarshipHeaderBlue'
+import { Login } from './component/pages/Login/Login'
 // import ProgramCardGrid from './component/ProgramCardGrid/ProgramCardGrid';
 // import LocationCardGrid from './component/LocationCardGrid/LocationCardGrid';
 // import Header from './component/Header/Header'
@@ -30,6 +31,10 @@ function App() {
             <Route exact path={process.env.PUBLIC_URL + '/scholarship'}>
               {/* <Home /> */}
               <Scholarship />
+            </Route>
+            <Route exact path={process.env.PUBLIC_URL + '/login'}>
+              <ScholarshipHeaderBlue />
+              <Login />
             </Route>
             <Route exact path={process.env.PUBLIC_URL + '/scholarship-list'}>
               {/* <Home /> */}

@@ -41,7 +41,7 @@ export const ScholarshipHeaderBlue = () => {
             </Link>
           </li>
           <li className="nav-link">
-            <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
+            <Link to={process.env.PUBLIC_URL + '/login'} className="nav-link-with-image">
               <img className="svg-icon" src={user} alt="" />
               User
             </Link>
