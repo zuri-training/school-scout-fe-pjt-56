@@ -27,7 +27,7 @@ export const Login = () => {
                     <form className="app-login-form" action="">
                         <input className="app-login-input" type="text" placeholder="Enter email address" name="" id="" />
                         <div className="app-login-pwd-container">
-                            <input className="app-login-input app-login-input-left" placeholder="Password" type="password" />
+                            <input className="app-login-input app-login-input-left" placeholder="Password" type={ !show ? "text" : "password" } />
                             <img onClick={ handleClick } className="app-login-pwd-mask" src= { logo } alt="" />
                         </div>
                         <Link className="app-login-fgt-pwd" to={process.env.PUBLIC_URL + '/'}>Forgot password?</Link>
