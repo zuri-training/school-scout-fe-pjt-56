@@ -6,16 +6,15 @@ import nosee from '../Login/images/nosee.svg'
 import { useState } from 'react'
 
 export const SignUp = () => {
-
+  
     const [logo, setLogo] = useState( nosee );
     const [show, setShow] = useState( true );
-
+ 
     function handleClick() {
         // console.log('hello world', show);
         (show) ? setLogo(see) : setLogo(nosee);
         setShow(!show);
     }
-
 
     return (
         <section className="login-section">
@@ -32,7 +31,7 @@ export const SignUp = () => {
                     </div>
                         <input className="app-sgnup-input" type="text" placeholder="Enter email address" name="" id="" />
                         <div className="app-login-pwd-container">
-                            <input className="app-sgnup-input app-sgnup-input-left" placeholder="Password" type="text" />
+                            <input className="app-sgnup-input app-sgnup-input-left" placeholder="Password" type={ !show ? "text" : "password" } />
                             <img onClick={ handleClick } className="app-login-pwd-mask" src={ logo } alt="" />
                         </div>
                         <div className="app-sgnup-chkbx">
