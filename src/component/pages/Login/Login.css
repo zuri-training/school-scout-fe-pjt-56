@@ -420,10 +420,14 @@
   /* normalize.css ends here */
 
   .login-section {
+    background: url('./images/Frame\ 138.png');
       padding: 64px 276px 46px 268px;
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
 .app-login-container {
+  background: white;
     column-gap: 0;
     display: flex;
     justify-content: space-between;
@@ -435,19 +439,29 @@
 .app-login-img {
     /* background-image: url('./images/login.png'); */
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/login.png');
-    /* background-color: red; */
     height: 602px;
     width: 368px;
 }
 
-.app-login-heading {
+.app-signup-img {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../SignUp/images/signup.png');
+      /* height: 602px; */
+      width: 368px;
+}
+
+.app-login-heading, .app-sgnup-heading {
     color: var(--color-main);
     font-size: 4rem;
     font-weight: 400;
     line-height: 5rem;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     margin-bottom: 0;
     text-align: center;
+}
+
+.app-sgnup-heading {
+  line-height: 45px;
+  margin-top: 0;
 }
 
 .app-login-form {
@@ -455,6 +469,11 @@
     flex-direction: column;
     padding: 0 58px 40px 60px;
     text-align: center;
+}
+
+.app-sgnup-input-grp {
+  display: flex;
+  column-gap: 32px;
 }
 
 .app-login-input {
@@ -469,8 +488,10 @@
     outline: 0;
 }
 
-.app-login-input-left {
+.app-sgnup-input-left, .app-login-input-left {
     margin-left: 0;
+    margin-right: -3px;
+
 }
 
 .app-login-pwd-mask {
@@ -486,11 +507,23 @@
     cursor: pointer;
 }
 
-.app-login-fgt-pwd {
+.app-login-fgt-pwd, .app-sgnup-tnc {
     margin-bottom: 32px;
     text-align: end;
     color: #263AFF;;
     text-decoration: none;
+}
+
+.app-sgnup-tnc {
+  color: var(--color-btn-primary);
+}
+
+.app-sgnup-tnc {
+  margin-bottom: 0;
+  margin-left: 3px;
+  font-size: 14px;
+  line-height: 21px;
+
 }
 
 .app-login-btn, 
@@ -515,7 +548,7 @@
     border: 1px solid #C0C6FC;
     border-radius: 15px;
     color: #121212;
-    padding: 16px 120px 16px 121px;
+    padding: 16px 114px 16px 114px;
     display: flex;
     justify-content: space-between;
 }
@@ -538,11 +571,49 @@
 }
 
 .lbl-or, .app-login-sgnup,
-.app-login-sngup-lnk  {
+.app-login-sgnup-lnk  {
     font-size: 16px;
     line-height: 24px;
 }
 
-.app-login-sngup-lnk {
+.app-login-sgnup-lnk {
     color: var(--color-btn-primary);
+}
+
+.app-sgnup-chkbx {
+  align-items: center;
+  display: flex;
+  margin-top: 14px;
+    margin-bottom: 29px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.app-sgnup-chkbx input {
+  margin-right: 3px;
+}
+
+.app-sgnup-input {
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 3rem;
+  padding-bottom: 0.8rem;
+  max-width: 400px;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #DCDCDC;
+  outline: 0;
+}
+
+.app-sgnup-form {
+  padding: 60px 84px 60px 85px;
+}
+
+.app-login-sgnup-lnk {
+  color: var(--color-btn-primary);
+  text-decoration: none;
+}
+
+.app-login-form {
+  padding: 0;
 }
