@@ -31,7 +31,7 @@ export const SignUp = () => {
         let password2 = password
 
         let user = {first_name, last_name, password1, password2, email}
-        console.log(user);
+        // console.log(user);
 
 
         let result = await fetch('https://schoolscout.herokuapp.com/auth/registration/', {
@@ -43,15 +43,18 @@ export const SignUp = () => {
             }
         })
 
-        result = await result.json();
+        let feedback = await result.json();
         let requestStatus = result.status;
+        // console.log(requestStatus)
 
         if (requestStatus === 201) {
             alert('You have successfully signed up!');
-            localStorage.setItem('session id', JSON.stringify(result))
+            localStorage.setItem('session id', JSON.stringify(feedback))
         } else {
             // alert(result.status + ': ' + result.statusText + '\nplease check your entries');
-            alert('Unable to sign in. Please check your entries');
+            console.log(result.status, result.statusText, JSON.stringify(feedback))
+            // alert(result.status + ': ' + result.statusText + '\nUnable to sign in. Please check your entries');
+            alert(Object.values(feedback));
         }
 
         // if (Object.keys(result).includes('key')) {
