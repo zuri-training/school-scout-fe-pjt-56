@@ -1,84 +1,44 @@
-*{
+* {
+ box-sizing: border-box;
  margin: 0px;
  padding: 0px;
- box-sizing: border-box;
 }
-body{
+
+body {
  font-family: "Hind", "Vadodara";
 }
-.a5-header-container{
- height: 162px;
- display: flex;
- justify-content: space-around;
- box-shadow: 0px 2px 4px 0px #00000014;
- 
-}
-.a5-main-content{
- display: flex;
- padding-top: 62px;
- justify-content: space-around;
-}
-.a5-main-content p{
- width: 41px;
- height: 41px;
- background: #cfa348;
- color: white;
- margin-right: 16px;
- border-radius: 50%;
- padding: 8px 9px 1px 16px;
- font-weight: bold;
- font-size: 24px;
-}
-a{
- width: 199px;
- margin-right: 32px;
- text-decoration: none;
- font-size: 20px;
- font-weight: 500;
- color: #000000;
+
+.a5-main-section {
+    padding: 175px 311px;
 }
 
-.a5-main-section{
- width: 818px;
- height: 175px;
- margin: 175px auto  auto 311px;
-
+.a5-cap-container {
+    margin: 0 auto;
+    max-width: 818px;
+    width: 100%;
 }
-.a5-main-section h2{
- text-align: center;
+
+.a5-cap-heading {
+ color: #10143b;
  font-size: 40px;
  font-weight: 500;
- color: #10143b;
- 
+ line-height: 45px;
+ text-align: center;
 }
-.a5-main-section p{
- font-size: 16px;
+
+.a5-main-section p {
  color: #121212;
+ font-size: 16px;
  margin-top: 16px;
  text-align: center;
 }
-.a5-main-section input{
- width: 818px;
- height: 56px;
+
+.a5-main-section input {
  align-content: center;
  background-color: #fff;
  border-radius: 10px;
  border: 1px solid #bdbec0;
- margin-top: 32px;
-}
-.a5-control-btn{
- height: 120px;
- margin-top: 175px;
-}
-.a5-control-btn button{
- font-size: 16px;
- width: 268px;
  height: 56px;
- border: 1px solid #cfa348;
- border-radius: 10px;
- background-color: #fff;
- margin: 32px auto 32px 100px;
-}
-.a5-control-btn img{
- margin-right: 17px;
+ margin-top: 32px;
+ width: 818px;
 }
