@@ -47,7 +47,7 @@ function App() {
             </Route>
             <Route exact path={process.env.PUBLIC_URL + '/career-advisory/cap-3'}>
               <ScholarshipHeaderBlue />
-              <CareerAdvisoryTop />
+              {/* <CareerAdvisoryTop /> */}
               <CareerAdvisoryPage3 />
               {/* <CareerAdvisoryButton /> */}
             </Route>
