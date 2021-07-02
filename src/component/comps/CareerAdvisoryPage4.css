@@ -1,91 +1,110 @@
-*{
- margin: 0px;
- padding: 0px;
- box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
-body{
- font-family: "Hind", "Vadodara";
+
+body {
+  font-family: "Hind", "Vadodara";
 }
-.a4-header-container{
- height: 162px;
- display: flex;
- justify-content: space-around;
- box-shadow: 0px 2px 4px 0px #00000014;
- 
+
+.a4-header-container {
+  box-shadow: 0px 2px 4px 0px #00000014;
+  display: flex;
+  height: 162px;
+  justify-content: space-around;
 }
-.a4-main-content{
- display: flex;
- padding-top: 62px;
- justify-content: space-around;
+
+.a4-main-section * {
+    color: #10143b;
 }
-.a4-main-content p{
- width: 41px;
- height: 41px;
- background: #cfa348;
- color: white;
- margin-right: 16px;
- border-radius: 50%;
- padding: 8px 9px 1px 16px;
- font-weight: bold;
- font-size: 24px;
+
+.a4-main-content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 62px;
 }
-a{
- width: 199px;
- margin-right: 32px;
- text-decoration: none;
- font-size: 20px;
- font-weight: 500;
- color: #000000;
+
+.a4-main-content p {
+  background: #cfa348;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  height: 41px;
+  margin-right: 16px;
+  padding: 8px 9px 1px 16px;
+  width: 41px;
 }
-.a4-main-container p{
- font-size: 40px;
- font-weight: 500px;
- color: #10143b;
- text-align: center;
- margin-top: 120px;
+
+.a4-main-container p {
+  color: #10143b;
+  font-size: 40px;
+  font-weight: 500px;
+  margin-top: 120px;
+  text-align: center;
 }
-.a4-main-section{
- width: 818px;
- height: 362px;
- margin-top: 64px;
- margin-left: 311px;
- text-align: center;
+
+.a4-main-section {
+  padding: 64px 311px 99px;
+  text-align: center;
+  width: 100%;
 }
-.a4-main-section h1{
- font-weight: 500;
- font-size: 40px;
- color: #10143b;
+
+.a4-main-section h1 {
+  color: #10143b;
+  font-size: 40px;
+  font-weight: 500;
 }
-.a4-main-section p{
- font-size: 16px;
- font-weight: 400;
- margin-bottom: 32px;
- margin-top: 24px;
+
+.a4-main-section p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  margin-top: 24px;
 }
-.a4-main-btn{
- display: block;
- margin-bottom: 16px;
- width: 818px;
- height: 56px;
- border: 1px solid #bdbec0;
- border-radius: 10px;
- padding-left: 16px;
- text-align: left;
- background-color: #fff;
+
+.a4-cap4-container {
+    margin: 0 auto;
+    max-width: 818px;
+    /* padding: 64px 311px 99px; */
 }
-.a4-control-btn{
- height: 120px;
- margin-top: 99px;
+
+.a4-cap4-heading {
+    line-height: 41px;
 }
-.a4-control-btn button{
- font-size: 16px;
- width: 268px;
- height: 56px;
- border: 1px solid #cfa348;
- border-radius: 10px;
- background-color: #fff;
- margin: 32px auto 32px 100px;
+
+.a4-cap4-p {
+    color: #121212;
 }
-.a4-control-btn img{
- margin-right: 17px;
+
+.a4-main-btn {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #bdbec0;
+  display: block;
+  height: 56px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  text-align: left;
+  width: 818px;
+}
+
+.a4-control-btn {
+  height: 120px;
+  margin-top: 99px;
+}
+
+.a4-control-btn button {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #cfa348;
+  font-size: 16px;
+  height: 56px;
+  margin: 32px auto 32px 100px;
+  width: 268px;
+}
+
+.a4-control-btn img {
+  margin-right: 17px;
 }
