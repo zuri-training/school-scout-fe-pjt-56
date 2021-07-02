@@ -426,7 +426,7 @@
     background-size: 100% 100%;
   }
 
-.app-login-container {
+.app-login-container, .app-sgnup-container {
   background: white;
     column-gap: 0;
     display: flex;
@@ -434,6 +434,10 @@
     margin: 0 auto;
     max-height: 602px;
     max-width: 896px;
+}
+
+.app-sgnup-container {
+  max-height: 661px;
 }
 
 .app-login-img {
@@ -503,7 +507,8 @@
 .app-login-pwd-mask:hover,
 .app-login-fgt-pwd:hover,
 .app-login-btn:hover,
-.app-login-btn-google:hover {
+.app-login-btn-google:hover,
+.app-sgnup-btn:hover {
     cursor: pointer;
 }
 
@@ -536,10 +541,21 @@
     line-height: 24px;
 }
 
+.app-login-btn,
+.app-sgnup-btn  {
+  border-radius: 10px;
+  background-color: var(--color-btn-primary);
+}
+
 .app-login-btn {
-    border-radius: 10px;
-    background-color: var(--color-btn-primary);
     padding: 16px 181px;
+}
+
+.app-sgnup-btn {
+  /* padding: 16px 174px; */
+  font-size: 16px;
+    line-height: 24px;
+    width: 100%;
 }
 
 .app-login-btn-google {
@@ -548,9 +564,12 @@
     border: 1px solid #C0C6FC;
     border-radius: 15px;
     color: #121212;
-    padding: 16px 114px 16px 114px;
+    /* padding: 16px 114px 16px 114px; */
+    padding: 16px 0 16px 0;
     display: flex;
-    justify-content: space-between;
+    column-gap: 16px;
+    align-items: center;
+    justify-content: center;
 }
 
 .lbl-or {
@@ -596,7 +615,7 @@
 .app-sgnup-input {
   font-size: 16px;
   line-height: 24px;
-  padding-top: 3rem;
+  padding-top: 3.2rem;
   padding-bottom: 0.8rem;
   max-width: 400px;
   width: 100%;
@@ -606,7 +625,7 @@
 }
 
 .app-sgnup-form {
-  padding: 60px 84px 60px 85px;
+  padding: 60px 64px 60px 64px;
 }
 
 .app-login-sgnup-lnk {
