@@ -1,0 +1,91 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body{
+ font-family: "Hind", "Vadodara";
+}
+.a4-header-container{
+ height: 162px;
+ display: flex;
+ justify-content: space-around;
+ box-shadow: 0px 2px 4px 0px #00000014;
+ 
+}
+.a4-main-content{
+ display: flex;
+ padding-top: 62px;
+ justify-content: space-around;
+}
+.a4-main-content p{
+ width: 41px;
+ height: 41px;
+ background: #cfa348;
+ color: white;
+ margin-right: 16px;
+ border-radius: 50%;
+ padding: 8px 9px 1px 16px;
+ font-weight: bold;
+ font-size: 24px;
+}
+a{
+ width: 199px;
+ margin-right: 32px;
+ text-decoration: none;
+ font-size: 20px;
+ font-weight: 500;
+ color: #000000;
+}
+.a4-main-container p{
+ font-size: 40px;
+ font-weight: 500px;
+ color: #10143b;
+ text-align: center;
+ margin-top: 120px;
+}
+.a4-main-section{
+ width: 818px;
+ height: 362px;
+ margin-top: 64px;
+ margin-left: 311px;
+ text-align: center;
+}
+.a4-main-section h1{
+ font-weight: 500;
+ font-size: 40px;
+ color: #10143b;
+}
+.a4-main-section p{
+ font-size: 16px;
+ font-weight: 400;
+ margin-bottom: 32px;
+ margin-top: 24px;
+}
+.a4-main-btn{
+ display: block;
+ margin-bottom: 16px;
+ width: 818px;
+ height: 56px;
+ border: 1px solid #bdbec0;
+ border-radius: 10px;
+ padding-left: 16px;
+ text-align: left;
+ background-color: #fff;
+}
+.a4-control-btn{
+ height: 120px;
+ margin-top: 99px;
+}
+.a4-control-btn button{
+ font-size: 16px;
+ width: 268px;
+ height: 56px;
+ border: 1px solid #cfa348;
+ border-radius: 10px;
+ background-color: #fff;
+ margin: 32px auto 32px 100px;
+}
+.a4-control-btn img{
+ margin-right: 17px;
+}

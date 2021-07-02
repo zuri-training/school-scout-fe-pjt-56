@@ -27,7 +27,7 @@ export const Header = () => {
                         <Link className="hello" to={process.env.PUBLIC_URL + '/scholarship'}>Find scholarship</Link>
                     </li>
                     <li className="nav-link">
-                        <Link to={process.env.PUBLIC_URL + '/'}>Career advisory</Link>
+                        <Link to={process.env.PUBLIC_URL + '/career-advisory'}>Career advisory</Link>
                     </li>
                 </ul>
                 <ul className="nav-links">

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+}
+
+.block {
+    padding: 84px 121px 152px;
+}
+
+.a3-main-container {
+  width: calc(100vw);
+}
+/* .a3-section1-content {
+  display: flex;
+  justify-content: space-between;
+} */
+.a3-heading2 {
+    grid-area: 1/1/2/2;
+  color: #10143b;
+  font-size: 40px;
+  line-height: 50px;
+  /* margin: 87px 370px 0 121px; */
+}
+.a3-input {
+  width: 357px;
+  height: 56px;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px;
+  margin-top: 83px;
+  margin-right: 121px;
+  font-size: 16px;
+  padding: 16px 0 16px 16px;
+  color: rgba(27, 41, 44, 0.7);
+}
+.a3-chevron {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  background-color: #0c0f2b;
+  border-radius: 10px;
+  left: 1400px;
+  top: 83px;
+}
+.a3-chevron img {
+  position: absolute;
+  width: 15.5px;
+  height: 8.5px;
+  top: 40%;
+  left: 33%;
+  color: #ffffff;
+}
+
+.a3-section-2 {
+    display: grid;
+    grid-template-columns: 319px 1fr;
+    column-gap: 48px;
+    row-gap: 79px;
+  /* display: flex;
+  justify-content: space-between;
+  margin: 83px 122px 0 122px; */
+}
+
+.a3-explore {
+    grid-area: 1/2/2/3;
+}
+
+.a3-card {
+    grid-area: 2/1/3/2;
+  /* margin-right: 72px; */
+}
+
+.a3-list-container {
+    grid-area: 2/2/3/3;
+}
+
+.a3-card-1 {
+  width: 319px;
+  height: 143px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  border: 2px solid #cfa348;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-right: 48px;
+}
+h3 {
+  margin: 7% 0 0 0;
+}
+
+h3 img {
+  width: 20px;
+  height: 19px;
+  margin-left: 26px;
+  margin-right: 18px;
+}
+.a3-card-1 p {
+  font-size: 16px;
+  margin: 16px 28px 27px 24px;
+  color: rgba(27, 41, 44, 0.7);
+}
+#card1 {
+  margin-bottom: 40px;
+}
+.a3-list {
+  width: 829px;
+  height: 469px;
+  list-style: none;
+}
+.a3-list div {
+  display: flex;
+}
+.a3-list li {
+  margin-right: 620px;
+  margin-top: 16px;
+  width: 100%;
+}
+.a3-list-container {
+  width: 100%;
+  height: auto;
+}
+.a3-div-item {
+  margin-bottom: 16px;
+  width: auto;
+  border-top: 1px solid rgba(207, 163, 72, 0.3);
+  border-bottom: 1px solid rgba(207, 163, 72, 0.3);
+  display: flex;
+  justify-content: end;
+}
+.a3-div-item li {
+  padding-bottom: 16px;
+}
+.a3-div-item a {
+  padding-top: 16px;
+}
