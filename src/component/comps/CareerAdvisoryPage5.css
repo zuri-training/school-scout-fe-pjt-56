@@ -10,6 +10,7 @@ body {
 
 .a5-main-section {
     padding: 175px 311px;
+    opacity: 0.2;
 }
 
 .a5-cap-container {
@@ -40,5 +41,117 @@ body {
  border: 1px solid #bdbec0;
  height: 56px;
  margin-top: 32px;
- width: 818px;
+ width: 100%;
+    max-width: 818px;
 }
+
+.modalZ {
+    display: none;
+    /* background: #FFFFFF; */
+/* border: 1px solid #898989; */
+    top: 0;
+    left: 0;
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    padding: 46px 32px 55px; /* i set this */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   /* background-color: rgb(0,0,0); /* Fallback color */
+   /* background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+  /* Modal Content */
+  .modal-contentZ {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-height: 250px;
+    max-width: 270px;
+    /* background: red; */
+    padding: 46px 32px 55px;
+    position: absolute;
+    top: calc(50vh - 255px);
+    left: calc(50vw - 135px);
+  }
+
+#myBtn {
+    outline: none;
+}
+
+.a5-spinner-containerZ {
+    text-align: center;
+}
+
+.a5-spinnerZ {
+    animation: spin 2s linear infinite;
+}
+
+.a5-spinner-text {
+    color: #000000;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.a5-spinner-container {
+    margin-bottom: 22px;
+}
+
+.a5-cap-input {
+    padding: 12px 20px;
+}
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    /* padding: 46px 83px 55px; */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-height: 250px;
+    max-width: 270px;
+    background: red;
+    padding: 46px 32px 55px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
