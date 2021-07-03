@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Hind", "Vadodara";
+  }
+  
+  .a2-main-container {
+    padding: 60px 311px 256px;
+    text-align: center;
+  }
+  
+  .a2-select-btn {
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 818px;
+    outline: none;
+    padding: 16px 25px 16px 16px;
+    width: 100%;
+  }
+  
+  .a2-p-cap {
+    color: #10143b;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  
