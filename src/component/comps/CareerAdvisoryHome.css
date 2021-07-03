@@ -27,6 +27,10 @@ body {
   );
 }
 
+.ah-wrapper-content button {
+  margin-top: 64px;
+}
+
 .ah-header-3 {
   font-weight: 500px;
   font-size: 24px;
@@ -72,9 +76,10 @@ button {
   text-align: center;
 }
 .ah-card-section-container div h2 {
-  font-size: 40px;
-  text-align: center;
   color: #10143b;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
 }
 .ah-second-para {
   font-size: 16px;
@@ -87,6 +92,7 @@ a {
 }
 .ah-card {
   display: flex;
+  column-gap: 20px;
   justify-content: space-between;
   padding: 56px 0px 64px 0px;
   width: 100%;
