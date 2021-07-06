@@ -49,10 +49,10 @@ body {
 }
 
 .a3-chevron-icon {
+  align-items: center;
   display: flex;
   height: 100%;
   justify-content: center;
-  align-items: center;
 }
 
 .a3-chevron img {
@@ -71,7 +71,7 @@ body {
 }
 
 .a3-explore {
-    display: flex;
+  display: flex;
   grid-area: 1/2/2/3;
 }
 
@@ -86,11 +86,24 @@ body {
 .a3-card-1 {
   background: #ffffff;
   border-radius: 15px;
-  border: 2px solid #cfa348;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
   margin-right: 48px;
+  max-height: 143px;
+  padding: 24px 28px 27px 24px;
   width: 319px;
+  border: 1px solid #ebebeb;
+}
+
+.a3-card-1-active {
+  border: 2px solid #cfa348;
+  margin-right: 48px;
+}
+
+.a3-card-1-inactive {
 }
 
 h3 img {
@@ -103,7 +116,6 @@ h3 img {
   color: rgba(27, 41, 44, 0.7);
   font-size: 16px;
   line-height: 24px;
-  margin: 0 28px 27px 24px;
 }
 
 #card1 {
@@ -111,9 +123,9 @@ h3 img {
 }
 
 .a3-list {
-    height: 469px;
-    list-style: none;
-    width: 829px;
+  height: 469px;
+  list-style: none;
+  width: 829px;
 }
 
 .a3-list div {
@@ -126,7 +138,7 @@ h3 img {
 }
 
 .a3-list-container {
-    height: auto;
+  height: auto;
   width: 100%;
 }
 
@@ -134,15 +146,33 @@ h3 img {
   align-items: center;
   border-bottom: 1px solid rgba(207, 163, 72, 0.3);
   border-top: 1px solid rgba(207, 163, 72, 0.3);
-  display: flex;
-  justify-content: end;
   margin-bottom: 16px;
-  width: auto;
 }
+
+/* .a3-img-2 img {
+  transition: all 0.3s;
+}
+
+.a3-img-2 img:hover  {
+  margin-left: 5px;
+} */
 
 .a3-div-item li {
   margin-bottom: 16px;
   margin-left: 24px;
+}
+
+.a3-list-link {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  line-height: 24px;
+  padding: 16px 20px;
+  width: 100%;
+}
+
+.a3-list-link p {
+  flex-grow: 1;
 }
 
 .a3-img-2 img {
@@ -154,7 +184,9 @@ h3 img {
   column-gap: 18.08px;
   display: flex;
   justify-content: flex-start;
-  padding: 24px 26px 16px;
+  /* padding: 24px 26px 16px; */
+
+  margin-bottom: 12px;
 }
 
 .a3-card-heading {

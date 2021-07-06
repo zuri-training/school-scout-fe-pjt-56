@@ -5,6 +5,17 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function CareerAdvisoryHome() {
+
+  function onClick(event) {
+
+    let exploreType = (event.target.className === 'ah-card-1') ? event.target.children[1].textContent : event.target.parentElement.children[1].textContent;
+    
+    localStorage.setItem(exploreType.split(' ')[0], exploreType.split(' ')[1]);
+
+    console.log(exploreType);
+  }
+
+
   return (
     <main className='ah-main-body'>
       <section className='ah-wrapper'>
@@ -35,31 +46,20 @@ function CareerAdvisoryHome() {
 
             <div className='ah-center-contain'>
               <section className='ah-card center-contain'>
-                {/* <div className='ah-card-1' style={{ marginRight: '91px' }}> */}
-                <Link to={process.env.PUBLIC_URL + '/career-advisory/cap-2'} className='ah-card-1'>
+                <Link onClick={ (e) => onClick(e) } to={process.env.PUBLIC_URL + '/career-advisory/cap-2'} className='ah-card-1'>
                   <img className='ah-img-1' src={hat} alt='' />
-                  <a href='./'>
-                    <h3 className='ah-heading3'>Explore schools</h3>{' '}
-                  </a>
-                  <a href='./'>
-                    {' '}
-                    <p className='ah-para-3'>
-                      Explore our list of schools and discover the one that is
-                      great for you.
-                    </p>
-                  </a>
+                  <h3 className='ah-heading3'>Explore schools</h3>
+                  <p className='ah-para-3'>
+                    Explore our list of schools and discover the one that is
+                    great for you.
+                  </p>
                 </Link>
-                {/* </div> */}
-                <Link to={ process.env.PUBLIC_URL + '/career-advisory/cap-2' } className='ah-card-1'>
+                <Link onClick={ (e) => onClick(e) } to={ process.env.PUBLIC_URL + '/career-advisory/cap-2' } className='ah-card-1'>
                   <img className='ah-img-2' src={homeIcon} alt='' />
-                  <a href='./'>
-                    <h3 className='ah-heading3'>Explore locations</h3>{' '}
-                  </a>
-                  <a href='./'>
+                    <h3 className='ah-heading3'>Explore locations</h3>
                     <p className='ah-para-3'>
                       Explore several locations to find the one that you prefer
-                    </p>{' '}
-                  </a>
+                    </p>
                 </Link>
               </section>
             </div>

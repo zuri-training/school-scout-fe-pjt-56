@@ -79,13 +79,16 @@ body {
 }
 
 .a4-main-btn {
+  font-size: 16px;
+  line-height: 24px;
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid #bdbec0;
+  cursor: pointer;
   display: block;
-  height: 56px;
   margin-bottom: 16px;
   padding-left: 16px;
+  padding: 16px;
   text-align: left;
   width: 818px;
 }

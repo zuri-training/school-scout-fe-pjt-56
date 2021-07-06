@@ -9,6 +9,7 @@ import CareerAdvisoryPage3 from "./component/comps/CareerAdvisoryPage3";
 import CareerAdvisory4 from "./component/comps/CareerAdvisoryPage4";
 import CareerAdvisory5 from "./component/comps/CareerAdvisoryPage5";
 import CareerAdvisory6 from "./component/comps/CareerAdvisoryPage6";
+import { CompareSchoolHero } from "./component/pages/CompareSchoolPage/CompareSchoolHero/CompareSchoolHero";
 import { CareerAdvisoryButton } from "./component/comps/CareerAdvisoryButton";
 import { CareerAdvisoryTop } from './component/comps/CareerAdvisoryTop'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -33,6 +34,10 @@ function App() {
             <Route exact path={process.env.PUBLIC_URL + '/signup'}>
               <ScholarshipHeaderBlue />
               <SignUp />
+            </Route>
+            <Route exact path={process.env.PUBLIC_URL + '/compare-school'}>
+              <ScholarshipHeaderBlue />
+              <CompareSchoolHero />
             </Route>
             <Route exact path={process.env.PUBLIC_URL + '/scholarship-list'}>
               <ScholarshipHeaderBlue />
@@ -73,6 +78,9 @@ function App() {
               <CareerAdvisory6 />
               <CareerAdvisoryButton />
             </Route>
+            {/* <Route> 
+            <p>testing 404 page</p>
+            </Route> */}
             {/* <Route exact path={process.env.PUBLIC_URL + '/'}> */}
             <Route path='/'>
               <Home />

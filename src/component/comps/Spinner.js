@@ -4,6 +4,9 @@ export function Spinner(event) {
   // Get the modal
   var modal = document.getElementById("myModal");
 
+  // Get the value of the input element on the last form page
+  let text = document.getElementsByClassName('a5-cap-input')[0].value
+
 //   // Get the button that opens the modal
 //   var btn = document.getElementById("myBtn");
 
@@ -11,22 +14,14 @@ export function Spinner(event) {
 //   var span = document.getElementsByClassName("close")[0];
 
 if (event.key === 'Enter' ) {
-    console.log('hello');
+  // document.parentElement.style.background = 'white';
+    localStorage.setItem('interests', text)
+    console.log('localstorage:', Object.entries(localStorage));
+    Object.entries(localStorage).forEach(item => console.log(item[0], item[1]))
+
     modal.style.display = "block";
+    modal.style.background = '#ffffffcc';
 }
-
-
-//   // When the user clicks the button, open the modal
-//   btn.onkeyup = function () {
-//     console.log('hello');
-//     alert('hi')
-//     modal.style.display = "block";
-//   };
-
-//   // When the user clicks on <span> (x), close the modal
-//   span.onclick = function () {
-//     modal.style.display = "none";
-//   };
 
 //   // When the user clicks anywhere outside of the modal, close it
 //   window.onclick = function (event) {

@@ -158,6 +158,8 @@ a {
   text-align: center;
   font-size: 16px;
   color: #10143b;
+  line-height: 24px;
+  margin-bottom: 32px;
   margin-top: 16px;
 }
 .advisory-select-container{

@@ -10,6 +10,9 @@ body {
 
 .a5-main-section {
     padding: 175px 311px;
+}
+
+.opaque {
     opacity: 0.2;
 }
 
