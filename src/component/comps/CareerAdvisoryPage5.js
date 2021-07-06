@@ -1,6 +1,7 @@
 import "./CareerAdvisoryPage5.css";
 import spinner from './images/spinner.png'
 import { Spinner } from './Spinner'
+import { Link } from "react-router-dom";
 
 function CareerAdvisory5() {
   return (
@@ -25,6 +26,9 @@ function CareerAdvisory5() {
             </div>
           </div>
         </div>
+
+        <Link id="cap-link-to-login" to={process.env.PUBLIC_URL + '/login'} style={ {display: "none"} }></Link>
+
       </main>
     </>
   );

@@ -18,7 +18,7 @@ class CareerAdvisory2 extends Component {
          <option value='Delta cap-3'>Delta</option>
          <option value='Abuja cap-3'>Abuja</option>
          <option value='Imo cap-3'>Imo</option>
-         <option value="Test cap-3">Test</option>
+         <option value="Test cap-3">Oyo</option>
        </select>
      </main>
     );
