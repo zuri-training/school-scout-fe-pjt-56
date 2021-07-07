@@ -1,5 +1,6 @@
 // import React from 'react';
 import "./component/pages/Scholarship/Scholarship.css";
+import ScrollToTop from "./component/shared/ScrollToTop";
 import Footer from "./component/shared/footer/Footer";
 import  ScholarshipList  from "./component/pages/ScholarshipList/ScholarshipList";
 import Scholarship from "./component/pages/Scholarship/Scholarship";
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
           <Switch>
           {/* <Route path={process.env.PUBLIC_URL + '/'}></Route> */}
             <Route exact path={process.env.PUBLIC_URL + '/scholarship'}>
