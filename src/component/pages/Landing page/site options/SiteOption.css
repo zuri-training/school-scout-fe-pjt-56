@@ -1,7 +1,7 @@
 .lower{
     padding: 1em 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #10143b;
 }
 .option-card{
@@ -10,4 +10,12 @@
     border-radius: 15px;
     justify-content: space-around;
 
+}
+
+.lower p {
+    margin-left: 24px;
+}
+
+.lower img {
+    margin-right: 24px;
 }

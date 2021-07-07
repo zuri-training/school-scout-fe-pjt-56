@@ -50,14 +50,18 @@ body {
   color: #fff;
   width: 608px;
 }
+
 .ah-first-para {
   width: 465px;
   margin-top: 24px;
+  margin-bottom: 64px;
   font-size: 16px;
   color: #d6d6d4;
 }
-button {
+
+.ah-button {
   margin-top: 80px;
+  padding: 16px 95px;
   width: 268px;
   height: 56px;
   background: #cfa348;
@@ -66,30 +70,36 @@ button {
   text-align: center;
   border: none;
 }
+
 .ah-main-card-container {
   display: flex;
   width: 100%;
   padding: 64px 262px;
   justify-content: center;
 }
+
 .ah-card-section-container {
   text-align: center;
 }
+
 .ah-card-section-container div h2 {
   color: #10143b;
   font-size: 40px;
   line-height: 45px;
   text-align: center;
 }
+
 .ah-second-para {
   font-size: 16px;
   color: #10143b;
   margin-top: 16px;
 }
+
 /* styling the cards */
 a {
   text-decoration: none;
 }
+
 .ah-card {
   display: flex;
   column-gap: 20px;
@@ -97,6 +107,7 @@ a {
   padding: 56px 0px 64px 0px;
   width: 100%;
 }
+
 .ah-card-1 {
   text-align: center;
   width: 392px;
@@ -112,6 +123,7 @@ a {
 .ah-card-2:hover {
   background: rgba(207, 163, 72, 0.4);
 }
+
 .ah-card-2 {
   border: 1px solid #d6d6d4;
   box-sizing: border-box;
@@ -119,11 +131,13 @@ a {
   border-radius: 15px;
   margin-bottom: 30px;
 }
+
 .ah-heading3 {
   font-weight: 500;
   font-size: 24px;
   color: #10143b;
 }
+
 .ah-para-3 {
   width: 272px;
   margin-top: 32px;
@@ -148,12 +162,14 @@ a {
   margin-top: 14%;
   margin-bottom: 17%;
 }
+
 .ah-heading2-2 {
   font-size: 40px;
   color: #10143b;
   font-weight: 500;
   text-align: center;
 }
+
 .ah-para-4 {
   text-align: center;
   font-size: 16px;
@@ -162,6 +178,7 @@ a {
   margin-bottom: 32px;
   margin-top: 16px;
 }
+
 .advisory-select-container{
 
   max-width: 891px;
@@ -169,11 +186,13 @@ a {
   border: 1px solid #d8d8d8;
   border-radius: 10px;
 }
+
 .select-container{
   position: relative;
  padding: 30px;
  border-bottom: 1px solid #d8d8d8;
 }
+
 .select-container select{
   width: 100%;
   border: 0;
@@ -183,6 +202,7 @@ a {
   outline: none;
   appearance: none; 
 }
+
 .select-container::after{
   content: url(./images/Stroke\ 1.svg);
   font-size: 16px;

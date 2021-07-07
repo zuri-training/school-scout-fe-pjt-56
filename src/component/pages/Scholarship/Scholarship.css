@@ -487,6 +487,14 @@ p {
   padding: 0;
 }
 
+.nav-links:nth-of-type(1) {
+  margin-left: 50px;
+}
+
+.nav-links:nth-of-type(2) {
+  margin-left: 122px;
+}
+
 .nav-link {
   font-weight: 400;
   margin-left: 20px;

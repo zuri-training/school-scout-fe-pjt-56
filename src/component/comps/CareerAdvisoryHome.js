@@ -25,10 +25,10 @@ function CareerAdvisoryHome() {
           </h3>
           <h1 className='ah-main-header'>Answer a few questions about you</h1>
           <p className='ah-first-para'>
-            we would use this information to suggest great courses that would
+            We would use this information to suggest great courses that would
             match your personality and skill set{' '}
           </p>
-          <button> Get started</button>
+          <Link className="ah-button" to={process.env.PUBLIC_URL + '/career-advisory/cap-2'}>Get started</Link>
         </div>
       </section>
       <div className='ah-main-card-container'>
@@ -46,7 +46,7 @@ function CareerAdvisoryHome() {
 
             <div className='ah-center-contain'>
               <section className='ah-card center-contain'>
-                <Link onClick={ (e) => onClick(e) } to={process.env.PUBLIC_URL + '/career-advisory/cap-2'} className='ah-card-1'>
+                <Link onClick={ (e) => onClick(e) } to={process.env.PUBLIC_URL + './'} className='ah-card-1'>
                   <img className='ah-img-1' src={hat} alt='' />
                   <h3 className='ah-heading3'>Explore schools</h3>
                   <p className='ah-para-3'>
@@ -54,7 +54,7 @@ function CareerAdvisoryHome() {
                     great for you.
                   </p>
                 </Link>
-                <Link onClick={ (e) => onClick(e) } to={ process.env.PUBLIC_URL + '/career-advisory/cap-2' } className='ah-card-1'>
+                <Link onClick={ (e) => onClick(e) } to={ process.env.PUBLIC_URL + './' } className='ah-card-1'>
                   <img className='ah-img-2' src={homeIcon} alt='' />
                     <h3 className='ah-heading3'>Explore locations</h3>
                     <p className='ah-para-3'>

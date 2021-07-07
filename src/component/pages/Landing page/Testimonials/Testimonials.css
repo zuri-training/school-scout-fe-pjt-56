@@ -1,12 +1,38 @@
 .testimonial-container{
     background: #E1E5FF;
-    padding: 1em;
+    padding: 24px 31px 22px;
     border-radius: 15px;
     color: #10143b;
+    height: 184px
 
 }
 .testimonial-card-bottom{
+    color: #10143b;
     display: flex;
     justify-content: space-between;
-    color: #10143b;
+}
+
+.testimonial-profile {
+    margin-right: 58px;
+}
+
+.testimony {
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.testimony-name {
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.testimony-profile-container {
+    position: relative;
+    top: -23px;
+}
+
+.tst-crd {
+    height: 52px;
 }
