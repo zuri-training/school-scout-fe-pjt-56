@@ -4,11 +4,19 @@
     justify-content: space-between;
     color: #10143b;
 }
+
+.lower-link {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .option-card{
     column-gap: 24px;
     border:1px solid rgb(218, 214, 214) ;
     border-radius: 15px;
     justify-content: space-around;
+    max-height: 374px;
 
 }
 

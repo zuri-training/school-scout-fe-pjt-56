@@ -72,13 +72,13 @@ function App() {
               <CareerAdvisory5 />
               <CareerAdvisoryButton />
             </Route>
-            {/* <Route> 
-            <p>testing 404 page</p>
-            </Route> */}
-            {/* <Route exact path={process.env.PUBLIC_URL + '/'}> */}
             <Route path='/'>
               <Home />
             </Route>
+            <Route path='*'> 
+            <p>testing 404 page</p>
+            </Route>
+            {/* <Route exact path={process.env.PUBLIC_URL + '/'}> */}
           </Switch>
         <Footer />
       </Router>

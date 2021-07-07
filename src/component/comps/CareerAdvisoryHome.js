@@ -20,15 +20,21 @@ function CareerAdvisoryHome() {
     <main className='ah-main-body'>
       <section className='ah-wrapper'>
         <div className='ah-wrapper-content'>
-          <h3 className='ah-header-3'>
-            Career <span>ADVISORY</span>
-          </h3>
-          <h1 className='ah-main-header'>Answer a few questions about you</h1>
-          <p className='ah-first-para'>
-            We would use this information to suggest great courses that would
-            match your personality and skill set{' '}
-          </p>
-          <Link className="ah-button" to={process.env.PUBLIC_URL + '/career-advisory/cap-2'}>Get started</Link>
+          <div style={{
+            maxWidth: '1240px',
+            margin: '0 auto',
+            padding: '126px 0 126px'
+          }}>
+            <h3 className='ah-header-3'>
+              Career <span>ADVISORY</span>
+            </h3>
+            <h1 className='ah-main-header'>Answer a few questions about you</h1>
+            <p className='ah-first-para'>
+              We would use this information to suggest great courses that would
+              match your personality and skill set{' '}
+            </p>
+            <Link className="ah-button" to={process.env.PUBLIC_URL + '/career-advisory/cap-2'}>Get started</Link>
+          </div>
         </div>
       </section>
       <div className='ah-main-card-container'>

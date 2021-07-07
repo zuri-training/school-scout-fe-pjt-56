@@ -14,11 +14,12 @@ body {
   width: 100vw;
   background: url(./images/bg-image.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .ah-wrapper-content {
   height: 630px;
-  padding: 126px 0 126px 100px;
+  /* padding: 126px 0 126px 100px; */
   background: linear-gradient(
     89.56deg,
     #10143b 4.45%,
