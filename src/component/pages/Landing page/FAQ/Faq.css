@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+
+.question{
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 45px;
+    border-top:1px solid rgb(228, 230, 250);
+}
+h2, p{
+    font-family: 'Hind Vadodara', sans-serif;
+}
+h2{
+    font-size: 16px;
+    padding-top: 42px
+    ;
+}
+
+p{
+    padding: 20px 0;
+}

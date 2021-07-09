@@ -124,14 +124,14 @@ Nduka Juliet
 - Email - ndukajuliet@gmail.com.
 - GitHub - https://github.com/diamondjuli
 
+Chibuzo Diala
+- GitHub - https://github.com/CDiala
 
-- GitHub - https://github.com/Heedharyhart
+Daniel Musa Bauta
+- GitHub - https://github.com/Dmbauta
 
-
-- GitHub - https://github.com/Lhorla
-
-
-- GitHub - https://github.com/sir-ct
+Victor Yakubu
+- GitHub - https://github.com/Aviatorcode2
 
 
 #

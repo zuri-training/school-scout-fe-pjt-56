@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.texts{
+    font-family: 'Hind Vadodara', sans-serif;
+    padding: .5em;
+    color: #10143b;
+}
+.landing-padding{
+    padding: 64px 100px;
+    max-width: 100%;
+}
+/* options */
+.options{
+    display: flex;
+    gap: 24px;
+}
+
+/* undecided */
+.undecided-container{
+    background: #f0f2ff;
+    display: flex;
+    justify-content: space-between;
+}
+.numbers{
+    display: flex;
+    margin-top: 15%;
+    justify-content: space-around;
+}
+.img-number-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white;
+    border-radius: 50%;
+
+}
+.left{
+    width: 60%;
+}
+/* Featured school */
+.schools{
+
+    display: flex;
+    column-gap: 24px;
+}
+/* Testimonials */
+.testimonials-container{
+    background: #F9F9FF;
+    
+}
+.testimonials{
+    display: flex;
+    column-gap: 24px;
+}
+
+/* Articles */
+.articles{
+    color: #10143b;
+    display: flex;
+    width: 100%;
+    column-gap: 26px;
+}
+
+/* Button */
+button {
+    background: #cfa348;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    color: #fff;
+    width: 252px;
+    cursor: pointer;
+}
+.undecided{
+    margin-top: 15%;
+}
