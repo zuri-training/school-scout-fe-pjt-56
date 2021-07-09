@@ -1,0 +1,12 @@
+.testimonial-container{
+    background: #E1E5FF;
+    padding: 1em;
+    border-radius: 15px;
+    color: #10143b;
+
+}
+.testimonial-card-bottom{
+    display: flex;
+    justify-content: space-between;
+    color: #10143b;
+}

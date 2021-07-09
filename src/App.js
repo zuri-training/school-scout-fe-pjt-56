@@ -1,0 +1,44 @@
+// import React from 'react';
+import "./component/pages/Scholarship/Scholarship.css";
+import Footer from "./component/shared/footer/Footer";
+import  ScholarshipList  from "./component/pages/ScholarshipList/ScholarshipList";
+import Scholarship from "./component/pages/Scholarship/Scholarship";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Home } from "./component/pages/Home";
+import { ScholarshipHeaderBlue } from './component/shared/ScholarshipHeaderBlue/ScholarshipHeaderBlue'
+import { Login } from './component/pages/Login/Login'
+import { SignUp } from './component/pages/SignUp/SignUp'
+
+function App() {
+  return (
+    <>
+      <Router>
+          <Switch>
+          {/* <Route path={process.env.PUBLIC_URL + '/'}></Route> */}
+            <Route exact path={process.env.PUBLIC_URL + '/scholarship'}>
+              <Scholarship />
+            </Route>
+            <Route exact path={process.env.PUBLIC_URL + '/login'}>
+              <ScholarshipHeaderBlue />
+              <Login />
+            </Route>
+            <Route exact path={process.env.PUBLIC_URL + '/signup'}>
+              <ScholarshipHeaderBlue />
+              <SignUp />
+            </Route>
+            <Route exact path={process.env.PUBLIC_URL + '/scholarship-list'}>
+              <ScholarshipHeaderBlue />
+              <ScholarshipList />
+            </Route>
+            {/* <Route exact path={process.env.PUBLIC_URL + '/'}> */}
+            <Route path='/'>
+              <Home />
+            </Route>
+          </Switch>
+        <Footer />
+      </Router>
+    </>
+  );
+}
+
+export default App;

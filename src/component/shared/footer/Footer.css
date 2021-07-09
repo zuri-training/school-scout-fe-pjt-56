@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+body{
+    margin: 0;
+    
+}
+.footer-container{
+    /* width: 95%;
+    height: 91.97px; */
+    background-color: #10143B;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.footer-container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-header{
+    background:#10143B;
+    justify-content: space-between;
+}
+.footer-nav{
+    
+    width: 1000%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.footer-nav ul{
+    
+    color: white;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.footer-nav li{
+    margin: 0 .5em;
+}
+.footer-nav a{
+    
+    color: white;
+    text-decoration: none;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 10em;
+}
+.footer-icon{
+    padding: .2em;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .footer-container{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    
+    
+} */
+.footer-columns{
+    
+    background:#10143B;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1140px;
+    height: 248.48px;
+    margin: auto;
+}
+.footer-col{
+    align-items: center;
+    margin: 2em 0;
+}
+.footer-div ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col.col-1 {
+    margin-right: 121px;
+    max-width: 219px;
+}
+
+.footer-description {
+    font-size: 14px;
+}
+
+.footer-col.col-2 {
+    margin-right: 103px;
+}
+
+.footer-col.col-3 {
+    margin-right: 135px;
+}
+
+.footer-div a{
+    line-height: 0;
+    text-decoration: none;
+    
+}
+.footer-div a, .footer-container{
+    color: white;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+} 
+
+.footer-input-group {
+    align-items: center;
+    column-gap: 7px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.footer-input{
+    /* border: 1px solid red; */
+    /* width: 80%; */
+    /* height: 2em; */
+    outline: none;
+    /* margin: 0.5em 0; */
+    padding: 8px 152px 11px 20px;
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 307px;
+    border: 0;
+
+}
+.footer-bottom{
+    /* padding: 0; */
+    margin: 0;
+    background:#0c0f2b ;
+    text-align: center;
+    /* height: 4em; */
+    padding: 2em 0;
+}
+
+.footer-form{
+    padding-top: 1em;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer-social-media a {
+    line-height: 0;
+}

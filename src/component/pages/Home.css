@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.texts{
+    font-family: 'Hind Vadodara', sans-serif;
+    padding: .5em;
+    color: #10143b;
+}
+
+.landing-hero {
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    /* background: linear-gradient(90.65deg, #10143B 2.13%, rgba(16, 20, 59, 0.579917) 34.9%, rgba(16, 20, 59, 0) 99.44%); */
+    background-image: url(./Landing\ page/hero-smile.png),linear-gradient(90.65deg, #10143B 2.13%, rgba(16, 20, 59, 0.579917) 34.9%, rgba(16, 20, 59, 0) 99.44%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-height: 736px;
+}
+
+.landing-block {
+
+}
+
+.lnd-hero__heading {
+    margin-top: 0;
+    color: #10143b;
+}
+
+.landing-padding{
+    padding: 64px 100px;
+    max-width: 100%;
+}
+/* options */
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.options-container *, .undecided-container *, .featured-container *,
+.testimonials-container * {
+    color: #10143B;
+}
+
+/* undecided */
+.landing-und-cont {
+    background: #f0f2ff;
+    padding: 20px;
+}
+
+.undecided-container{
+    background: #f0f2ff;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+}
+.numbers{
+    display: flex;
+    margin-top: 15%;
+    justify-content: space-around;
+}
+.img-number-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white;
+    border-radius: 50%;
+
+}
+.left{
+    width: 60%;
+}
+/* Featured school */
+.schools{
+
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+/* Testimonials */
+.testimonials-container{
+    background: #F9F9FF;
+    max-width: 1240px;
+    margin: 0 auto;
+    
+}
+.testimonials{
+    display: flex;
+    column-gap: 24px;
+}
+
+/* Articles */
+.articles{
+    color: #10143b;
+    display: flex;
+    width: 100%;
+    column-gap: 26px;
+}
+
+.articles-image-text {
+    padding: 24px;
+}
+
+.articles-container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* Button */
+.hm-btn-see, .hm-btn.undecided {
+    background: #cfa348;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    color: #fff;
+    width: 252px;
+    cursor: pointer;
+}
+.undecided{
+    margin-top: 15%;
+}
+
+.featured-container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.feature-text img {
+    max-width: 292px;
+}
+
+.featured-container h2 {
+    margin-bottom: 32px;
+}
+
+.feature-text p {
+    margin-left: 8px;
+}
+
+.landing-testimonial-section {
+    background: #F9F9FF;
+}
+
+.content * {
+    color: #10143b;
+}
+
+.content h4 {
+    font-size: 24px;
+    line-height: 36px;
+}

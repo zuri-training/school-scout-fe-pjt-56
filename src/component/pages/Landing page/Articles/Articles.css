@@ -1,0 +1,11 @@
+.articles-image-text{
+    display: flex;
+    background: #FFE8E8;
+    border-radius: 15px;
+    color: #10143B;
+
+}
+.image{
+    /* padding: 24px; */
+    margin-right: 24px;
+}
