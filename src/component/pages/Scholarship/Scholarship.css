@@ -899,6 +899,8 @@ svg:hover {
 .safety-image {
   width: 100%;
   margin-bottom: 16px;
+  max-height: 232px;
+  object-fit: cover;
 }
 
 .safety-caption {

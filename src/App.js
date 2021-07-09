@@ -79,7 +79,8 @@ function App() {
               <Home />
             </Route>
             <Route path='*'> 
-            <p style={{color: 'blue'}}>testing 404 page</p>
+              <ScholarshipHeaderBlue />
+              <p style={{color: 'blue'}}>testing 404 page</p>
             </Route>
           </Switch>
         <Footer />

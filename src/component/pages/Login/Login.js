@@ -58,7 +58,9 @@ export const Login = () => {
         if (requestStatus === 200) {
             alert('Login successful');
             console.log('result.status', result.status, 'result.statusText', result.statusText);
-            localStorage.setItem('session id', JSON.stringify(feedback))
+            console.log('feedbacktoday:', Object.keys(feedback).toString(), Object.values(feedback).toString())
+            // localStorage.setItem('session id', JSON.stringify(feedback))
+            localStorage.setItem('session id', Object.values(feedback).toString())
             if (localStorage.getItem('pre-page')) {
                 document.getElementById('cap-rslt').click()
             }
