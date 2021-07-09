@@ -2,8 +2,9 @@
 import "./component/pages/Scholarship/Scholarship.css";
 import ScrollToTop from "./component/shared/ScrollToTop";
 import Footer from "./component/shared/footer/Footer";
-import  ScholarshipList  from "./component/pages/ScholarshipList/ScholarshipList";
+import ScholarshipList  from "./component/pages/ScholarshipList/ScholarshipList";
 import Scholarship from "./component/pages/Scholarship/Scholarship";
+import ScholarshipDetails from "./component/pages/ScholarshipDetails/ScholarshipDetails";
 import CareerAdvisoryHome from "./component/comps/CareerAdvisoryHome";
 import CareerAdvisoryPage2 from "./component/comps/CareerAdvisoryPage2";
 import CareerAdvisoryPage3 from "./component/comps/CareerAdvisoryPage3";
@@ -44,6 +45,10 @@ function App() {
               <ScholarshipHeaderBlue />
               <ScholarshipList />
             </Route>
+            <Route exact path={process.env.PUBLIC_URL + '/scholarship-details'}>
+              <ScholarshipHeaderBlue />
+              <ScholarshipDetails />
+            </Route>
             <Route exact path={process.env.PUBLIC_URL + '/career-advisory'}>
               <ScholarshipHeaderBlue />
               <CareerAdvisoryHome />
@@ -56,12 +61,6 @@ function App() {
             </Route>
             <Route exact path={process.env.PUBLIC_URL + '/career-advisory/cap-3'}>
               <ScholarshipHeaderBlue />
-              {/* <CareerAdvisoryTop /> */}
-              <CareerAdvisoryPage3 />
-              {/* <CareerAdvisoryButton /> */}
-            </Route>
-            <Route exact path={process.env.PUBLIC_URL + '/career-advisory/cap-4'}>
-              <ScholarshipHeaderBlue />
               <CareerAdvisoryTop />
               <CareerAdvisory4 />
               <CareerAdvisoryButton />
@@ -72,13 +71,16 @@ function App() {
               <CareerAdvisory5 />
               <CareerAdvisoryButton />
             </Route>
+            <Route exact path={process.env.PUBLIC_URL + '/career-advisory/cap-rslt'}>
+              <ScholarshipHeaderBlue />
+              <CareerAdvisoryPage3 />
+            </Route>
             <Route exact path={process.env.PUBLIC_URL + '/'}>
               <Home />
             </Route>
             <Route path='*'> 
             <p style={{color: 'blue'}}>testing 404 page</p>
             </Route>
-            {/* <Route exact path={process.env.PUBLIC_URL + '/'}> */}
           </Switch>
         <Footer />
       </Router>

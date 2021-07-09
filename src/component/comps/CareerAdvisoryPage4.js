@@ -5,6 +5,7 @@ function CareerAdvisory4() {
   function onClick(event) {
     console.log(event.target.textContent);
     localStorage.setItem('o-level', event.target.textContent);
+    localStorage.setItem('pre-page', process.env.PUBLIC_URL + '/career-advisory/cap-5');
   }
 
   return (

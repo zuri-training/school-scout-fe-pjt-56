@@ -59,6 +59,9 @@ export const Login = () => {
             alert('Login successful');
             console.log('result.status', result.status, 'result.statusText', result.statusText);
             localStorage.setItem('session id', JSON.stringify(feedback))
+            if (localStorage.getItem('pre-page')) {
+                document.getElementById('cap-rslt').click()
+            }
         } else {
             alert(result.status + ': ' + result.statusText);
         }
@@ -102,6 +105,7 @@ export const Login = () => {
                     </div>
                 </div>
             </div>
+            <Link style={{display: 'hidden'}} id="cap-rslt" to={process.env.PUBLIC_URL + '/career-advisory/cap-rslt'}></Link>
         </section>
     )
 }
