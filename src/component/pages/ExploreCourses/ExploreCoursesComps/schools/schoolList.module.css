@@ -1,0 +1,28 @@
+.exploreFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1440px;
+  padding: 64px 45px;
+  gap: 32px 24px;
+}
+.bookmarkH3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(16, 20, 59, 1);
+  margin: 0 0 20px 100px;
+  height: 30vh;
+}
+
+.bookmarkH2 {
+  font-size: 46px;
+  font-weight: 600;
+  color: rgba(207, 163, 72, 1);
+  margin: 20px 0 0 100px;
+}
+
+.icon {
+  width: 12px;
+  height: 16px;
+  margin: 0 auto;
+}
