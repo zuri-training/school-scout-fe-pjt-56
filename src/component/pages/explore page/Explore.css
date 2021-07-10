@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* TYPOGRAPHY */
+.explore-text{
+    font-family: 'Hind Vadodara', sans-serif;
+    color: #10143B;
+    margin: 20px 0;
+}
+h2 .explore-text{
+    font-size: 40px;
+    line-height: 45px;
+}
+p .explore-text{
+    font-size: 16px;
+    line-height: 24px;
+}
+.general-pad{
+    /* padding: 0 100px; */
+    display: flex;
+    margin: 80px auto;
+    justify-content: center;
+ 
+
+
+} 
+ 
+ /* schools */
+.schools-section{
+    display: flex;
+    column-gap: 24px;
+}
+.explore-top-section{
+    display: flex;
+    justify-content: space-between;
+}
+/* courses */
+.course-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    width: 100%;
+    
+    
+}
+.search-courses{
+    background: #f2f3ff;
+
+}
+.search-container{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1240px;
+    max-width: 1240px;
+    padding: 100px 0; 
+
+}
+
+/* location */
+.location-section{
+    display: flex;
+    column-gap: 24px;
+}
+.schoolbutton{
+    padding: 16px 32px 16px 32px;
+    border-radius: 10px;
+    color: #10143b;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.schoolbutton:hover{
+    background: #f2f3ff;
+}
+.bottombtn{
+
+    padding: 16px 32px 16px 32px;
+    width: 268px;
+    height: 56px;
+    border-radius: 10px;
+    color: white;
+    background: #cfa348;
+    text-decoration: none;
+
+}
+.btn2{
+    margin-top: 4rem;
+}
