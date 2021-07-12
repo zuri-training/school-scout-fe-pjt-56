@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hind', 'varodara';
+}
+.ah-main-body {
+  width: 100vw;
+}
+.ah-wrapper {
+  width: 100vw;
+  background: url(./images/bg-image.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.ah-wrapper-content {
+  height: 630px;
+  /* padding: 126px 0 126px 100px; */
+  background: linear-gradient(
+    89.56deg,
+    #10143b 4.45%,
+    rgba(16, 20, 59, 0.46) 73.9%,
+    rgba(16, 20, 59, 0) 102.21%
+  );
+}
+
+.ah-wrapper-content button {
+  margin-top: 64px;
+}
+
+.ah-header-3 {
+  font-weight: 500px;
+  font-size: 24px;
+  color: #cfa348;
+}
+.ah-header-3 span {
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff;
+}
+
+.ah-main-header {
+  margin-top: 32px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 56px;
+  color: #fff;
+  width: 608px;
+}
+
+.ah-first-para {
+  width: 465px;
+  margin-top: 24px;
+  margin-bottom: 64px;
+  font-size: 16px;
+  color: #d6d6d4;
+}
+
+.ah-button {
+  margin-top: 80px;
+  padding: 16px 95px;
+  width: 268px;
+  height: 56px;
+  background: #cfa348;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  border: none;
+}
+
+.ah-main-card-container {
+  display: flex;
+  width: 100%;
+  padding: 64px 262px;
+  justify-content: center;
+}
+
+.ah-card-section-container {
+  text-align: center;
+}
+
+.ah-card-section-container div h2 {
+  color: #10143b;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.ah-second-para {
+  font-size: 16px;
+  color: #10143b;
+  margin-top: 16px;
+}
+
+/* styling the cards */
+a {
+  text-decoration: none;
+}
+
+.ah-card {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+  padding: 56px 0px 64px 0px;
+  width: 100%;
+}
+
+.ah-card-1 {
+  text-align: center;
+  width: 392px;
+  height: 356px;
+  border: 1px solid #d6d6d4;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 50px 0px #c3c3c359;
+
+  border-radius: 15px;
+}
+
+.ah-card-1:hover,
+.ah-card-2:hover {
+  background: rgba(207, 163, 72, 0.4);
+}
+
+.ah-card-2 {
+  border: 1px solid #d6d6d4;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 20px 50px rgba(196, 196, 196, 0.35));
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.ah-heading3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #10143b;
+}
+
+.ah-para-3 {
+  width: 272px;
+  margin-top: 32px;
+  margin-left: 60px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #10143b;
+  text-align: center;
+}
+
+.ah-img-1 {
+  width: 48px;
+  height: 40px;
+
+  margin-top: 14%;
+  margin-bottom: 17%;
+}
+
+.ah-img-2 {
+  width: 42px;
+  height: 38px;
+  margin-top: 14%;
+  margin-bottom: 17%;
+}
+
+.ah-heading2-2 {
+  font-size: 40px;
+  color: #10143b;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ah-para-4 {
+  text-align: center;
+  font-size: 16px;
+  color: #10143b;
+  line-height: 24px;
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+
+.advisory-select-container{
+
+  max-width: 891px;
+  height: auto;
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+}
+
+.select-container{
+  position: relative;
+ padding: 30px;
+ border-bottom: 1px solid #d8d8d8;
+}
+
+.select-container select{
+  width: 100%;
+  border: 0;
+  display: block;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+  appearance: none; 
+}
+
+.select-container::after{
+  content: url(./images/Stroke\ 1.svg);
+  font-size: 16px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(-50%);
+  pointer-events: none;
+}
+
+/*.ah-sch-adm-box {
+  /*width: 891px;
+height: 686px; 
+  margin: 2rem auto;
+  max-width: 891px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 32px 0 64px 275px;
+}
+details {
+  border-top: 1px solid #dcdcdc;
+}
+summary {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 32px 0 30px 42px;
+  line-height: 100%;
+}
+.ah-sch-adm-faq-details {
+  font-weight: normal;
+  font-size: 16px;
+  color: #121212;
+  padding: 5px 55px 20px;
+}
+::-webkit-details-marker {
+  display: none;
+}
+.ah-faq {
+}
+.ah-box {
+  margin-top: 60px;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0px 35px 0px 42px;
+}
+
+
+.ah-center-contain{
+  width: 803px;
+} */

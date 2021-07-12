@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+}
+
+.a3-block {
+  padding: 84px 121px 152px;
+}
+
+.a3-main-container {
+  width: calc(100vw);
+}
+
+.s3-section-top {
+  grid-area: 1/1/2/3;
+}
+
+.a3-heading2 {
+  color: #10143b;
+  flex-grow: 1;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.a3-input {
+  border-radius: 10px;
+  border: 1px solid #b0b0b0;
+  color: rgba(27, 41, 44, 0.7);
+  font-size: 16px;
+  height: 56px;
+  left: 56px;
+  line-height: 24px;
+  outline: none;
+  padding: 16px 70px 16px 16px;
+  position: relative;
+  width: 357px;
+}
+
+.a3-chevron {
+  background-color: #0c0f2b;
+  border-radius: 10px;
+  position: relative;
+  width: 56px;
+}
+
+.a3-chevron-icon {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.a3-chevron img {
+  color: #ffffff;
+  height: 8.5px;
+  width: 15.5px;
+}
+
+.a3-section-2 {
+  column-gap: 48px;
+  display: grid;
+  grid-template-columns: 319px 1fr;
+  margin: 0 auto;
+  max-width: 1200px;
+  row-gap: 79px;
+}
+
+.a3-explore {
+  display: flex;
+  grid-area: 1/2/2/3;
+}
+
+.a3-card {
+  grid-area: 2/1/3/2;
+}
+
+.a3-list-container {
+  grid-area: 2/2/3/3;
+}
+
+.a3-card-1 {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 48px;
+  max-height: 143px;
+  padding: 24px 28px 27px 24px;
+  width: 319px;
+  border: 1px solid #ebebeb;
+}
+
+.a3-card-1-active {
+  border: 2px solid #cfa348;
+  margin-right: 48px;
+}
+
+h3 img {
+  height: 19px;
+  margin-left: 26px;
+  margin-right: 18px;
+  width: 20px;
+}
+.a3-card-1 p {
+  color: rgba(27, 41, 44, 0.7);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#card1 {
+  margin-bottom: 40px;
+}
+
+.a3-list {
+  height: 469px;
+  list-style: none;
+  width: 829px;
+}
+
+.a3-list div {
+  display: flex;
+}
+
+.a3-list li {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.a3-list-container {
+  height: auto;
+  width: 100%;
+}
+
+.a3-div-item {
+  align-items: center;
+  border-bottom: 1px solid rgba(207, 163, 72, 0.3);
+  border-top: 1px solid rgba(207, 163, 72, 0.3);
+  margin-bottom: 16px;
+}
+
+/* .a3-img-2 img {
+  transition: all 0.3s;
+}
+
+.a3-img-2 img:hover  {
+  margin-left: 5px;
+} */
+
+.a3-div-item li {
+  margin-bottom: 16px;
+  margin-left: 24px;
+}
+
+.a3-list-link {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  line-height: 24px;
+  padding: 16px 20px;
+  width: 100%;
+}
+
+.a3-list-link p {
+  flex-grow: 1;
+}
+
+.a3-img-2 img {
+  vertical-align: middle;
+}
+
+.a3-card-top {
+  align-items: center;
+  column-gap: 18.08px;
+  display: flex;
+  justify-content: flex-start;
+  /* padding: 24px 26px 16px; */
+
+  margin-bottom: 12px;
+}
+
+.a3-card-heading {
+  color: black;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.a3-list-container * {
+  color: #10143b;
+}
+
+.s3-section-top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Hind', 'Vadodara';
+}
+header {
+  background-color: #dbdeff;
+  height: 187px;
+  width: 100%;
+}
+
+.main-section {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 121px;
+}
+
+.card-1 {
+  z-index: 1;
+  margin-top: -100px;
+  width: 400px;
+  height: 608px;
+  margin-right: 34px;
+  box-shadow: 0px 4px 16px 0px #00000014;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.picture {
+  margin: 56px 140px 16px 140px;
+}
+h3 {
+  font-size: 24px;
+  color: #121212;
+  margin: 0 123px 8px 122px;
+}
+.h3-para {
+  font-size: 16px;
+  color: #121212;
+  margin: 0 152px 24px 152px;
+}
+.card-1-search {
+  padding-top: 28px;
+  width: 400.1px;
+  height: 72px;
+  display: flex;
+  border-top: 1px solid #d8d8d8;
+}
+.card-1-search img {
+  margin: 0 32px 0 18px;
+  width: 14.09px;
+  height: 14.09;
+  color: #121212;
+}
+.card-1-search p {
+  font-size: 16px;
+  color: #121212;
+}
+.card-1-badge {
+  padding-top: 28px;
+  width: 400.1px;
+  height: 72px;
+  display: flex;
+  border-bottom: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+}
+.card-1-badge p {
+  font-size: 16px;
+  color: #121212;
+}
+.card-1-badge img {
+  width: 14.09px;
+  height: 14.09px;
+  margin: 0 34px 0 18px;
+}
+.card-1-btn1 {
+  width: 336px;
+  height: 56px;
+  margin: 24px 32px 0 32px;
+  border: 1px solid #cfa348;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.pencil {
+  margin-right: 16px;
+}
+.card-1-btn2 {
+  color: #cfa348;
+  font-size: 16px;
+  border: none;
+  background-color: #fff;
+  margin: 24px 0 0 173px;
+}
+form {
+  background: #fff;
+  z-index: 1;
+  margin-top: -100px;
+  width: 818px;
+  height: 608px;
+  padding: 100px 100px 0 100px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+.form-input {
+  width: 280px;
+  height: 64px;
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+}
+.div-input {
+  display: flex;
+  border-bottom: 1px solid #d8d8d8;
+  width: 616px;
+  height: 64px;
+  padding-top: 32px;
+  color: rgba(18, 18, 18, 0.8);
+  font-size: 16px;
+}
+.div-input p {
+  margin-right: 40px;
+}
+.form-btn {
+  width: 268px;
+  height: 56px;
+  color: #fff;
+  background: #cfa348;
+  padding: 16px 0;
+  margin: 32px auto auto auto;
+  border: none;
+  border-radius: 10px;
+}
+.form-btn-img {
+  margin-right: 16px;
+  width: 16px;
+  height: 16px;
+}
+.checkbox-container-1 {
+  margin-right: 40px;
+}
