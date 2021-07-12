@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind Vadodara", sans-serif;
+}
+.exploreH2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(16, 20, 59, 1);
+}
+.exploreH3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.exploreP {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(97, 97, 97, 1);
+}
+.exploreCardContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 400px;
+  height: 686px;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.exploreImageContainer {
+  width: 400px;
+  height: 187px;
+}
+.exploreCardImage:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+  border-radius: 10px;
+}
+.exBookmark {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: rgba(206, 206, 206, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 100;
+  cursor: pointer;
+}
+.exploreBookmark,
+.icon {
+  width: 12px;
+  height: 16px;
+  margin: 0 auto;
+}
+
+.exploreCardDetails {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.exploreCardHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  margin: 24px 0 16px 0;
+  padding: 0;
+}
+.exploreCardHeader .exploreH2 {
+  padding: 0px 0 8px 24px;
+}
+.exploreCardHeader .exploreH3 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px 0 0 24px;
+  color: rgba(16, 20, 59, 1);
+}
+.exploreCardText {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0px 0 0 24px;
+}
+.exploreCardText .exploreH3 {
+  padding: 10px 0 16px 0;
+}
+.exploreCardText .exploreP {
+  padding-bottom: 8px;
+}
+.exploreCompare {
+  padding: 16px 148px;
+  border: 1px solid #cfa348;
+  border-radius: 10px;
+  background: #ffffff;
+  width: 358px;
+  margin: 16px auto 24px auto;
+  color: rgba(207, 163, 72, 1);
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+.exploreCompare:hover {
+  color: #cfa348;
+}

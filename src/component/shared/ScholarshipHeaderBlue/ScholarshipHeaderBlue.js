@@ -1,53 +1,71 @@
-import logo from '../../pages/Scholarship/images/logo.svg'
-import search from '../../pages/Scholarship/images/search.svg'
-import globe from '../../pages/Scholarship/images/globe.svg'
-import bookmark from '../../pages/Scholarship/images/bookmark.svg'
-import user from '../../pages/Scholarship/images/user.svg'
-import menu from '../../pages/Scholarship/images/menu-bar.svg'
-import '../../pages/Scholarship/Scholarship.css'
+import logo from "../../pages/Scholarship/images/logo.svg";
+import search from "../../pages/Scholarship/images/search.svg";
+import globe from "../../pages/Scholarship/images/globe.svg";
+import bookmark from "../../pages/Scholarship/images/bookmark.svg";
+import user from "../../pages/Scholarship/images/user.svg";
+import menu from "../../pages/Scholarship/images/menu-bar.svg";
+import "../../pages/Scholarship/Scholarship.css";
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export const ScholarshipHeaderBlue = () => {
   return (
     <header className=".schpg-container hblue-schpg-container">
       <nav className="block block-center nav-container">
-        <Link to={process.env.PUBLIC_URL + '/'}><img className="logo" src={logo} alt="" /></Link>
+        <Link to={process.env.PUBLIC_URL + "/"}>
+          <img className="logo" src={logo} alt="" />
+        </Link>
         <ul className="nav-links">
           <li className="nav-link">
-            <Link to={process.env.PUBLIC_URL + '/'}>Explore schools</Link>
+            <Link to={process.env.PUBLIC_URL + "/"}>Explore schools</Link>
           </li>
           <li className="nav-link">
-            <Link to={process.env.PUBLIC_URL + '/'}>Compare schools</Link>
+            <Link to={process.env.PUBLIC_URL + "/"}>Compare schools</Link>
           </li>
           <li className="nav-link">
-            <Link to={process.env.PUBLIC_URL + '/scholarship'}>Find scholarship</Link>
+            <Link to={process.env.PUBLIC_URL + "/scholarship"}>
+              Find scholarship
+            </Link>
           </li>
           <li className="nav-link">
-            <Link to={process.env.PUBLIC_URL + '/career-advisory'}>Career advisory</Link>
+            <Link to={process.env.PUBLIC_URL + "/career-advisory"}>
+              Career advisory
+            </Link>
           </li>
         </ul>
         <ul className="nav-links">
           <li className="nav-link">
-            <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
+            <Link
+              to={process.env.PUBLIC_URL + "/"}
+              className="nav-link-with-image"
+            >
               <img className="svg-icon" src={search} alt="search icon" />
               Search
             </Link>
           </li>
           <li className="nav-link">
-            <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
+            <Link
+              to={process.env.PUBLIC_URL + "/"}
+              className="nav-link-with-image"
+            >
               <img className="svg-icon" src={globe} alt="" />
               Language
             </Link>
           </li>
           <li className="nav-link">
-            <Link to={process.env.PUBLIC_URL + '/login'} className="nav-link-with-image">
+            <Link
+              to={process.env.PUBLIC_URL + "/login"}
+              className="nav-link-with-image"
+            >
               <img className="svg-icon" src={user} alt="" />
               User
             </Link>
           </li>
           <li className="nav-link">
-            <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
+            <Link
+              to={process.env.PUBLIC_URL + "/bookmark"}
+              className="nav-link-with-image"
+            >
               <img className="svg-icon" src={bookmark} alt="" />
               Saved
             </Link>
@@ -59,4 +77,4 @@ export const ScholarshipHeaderBlue = () => {
   );
 };
 
-export default ScholarshipHeaderBlue
+export default ScholarshipHeaderBlue;

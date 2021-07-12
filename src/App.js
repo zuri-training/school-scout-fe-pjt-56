@@ -2,7 +2,7 @@
 import "./component/pages/Scholarship/Scholarship.css";
 import ScrollToTop from "./component/shared/ScrollToTop";
 import Footer from "./component/shared/footer/Footer";
-import ScholarshipList  from "./component/pages/ScholarshipList/ScholarshipList";
+import ScholarshipList from "./component/pages/ScholarshipList/ScholarshipList";
 import Scholarship from "./component/pages/Scholarship/Scholarship";
 import ScholarshipDetails from "./component/pages/ScholarshipDetails/ScholarshipDetails";
 import CareerAdvisoryHome from "./component/comps/CareerAdvisoryHome";
@@ -15,9 +15,17 @@ import { CareerAdvisoryButton } from "./component/comps/CareerAdvisoryButton";
 import { CareerAdvisoryTop } from './component/comps/CareerAdvisoryTop'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./component/pages/Home";
-import { ScholarshipHeaderBlue } from './component/shared/ScholarshipHeaderBlue/ScholarshipHeaderBlue'
-import { Login } from './component/pages/Login/Login'
-import { SignUp } from './component/pages/SignUp/SignUp'
+import { ScholarshipHeaderBlue } from "./component/shared/ScholarshipHeaderBlue/ScholarshipHeaderBlue";
+import { Login } from "./component/pages/Login/Login";
+import { SignUp } from "./component/pages/SignUp/SignUp";
+
+// The import files for explore courses
+import ExploreComputerScience from "./component/pages/ExploreCourses/ExploreComputerSci/ExploreComputerScience";
+import ExploreEconomics from "./component/pages/ExploreCourses/ExploreEconomics/ExploreEconomics";
+import ExploreElectElect from "./component/pages/ExploreCourses/ExploreElectElect/ExploreElectElect";
+import ExploreMBBS from "./component/pages/ExploreCourses/ExploreMBBS/ExploreMBBS";
+import BookmarkPage from "./component/Bookmark/Bookmark";
+// End of import files
 
 function App() {
   return (
