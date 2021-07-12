@@ -3,28 +3,48 @@
     margin: 0;
     padding: 0;
 }
-.texts{
+.texts1, .texts2 {
     font-family: 'Hind Vadodara', sans-serif;
-    padding: .5em;
     color: #10143b;
+}
+
+.texts1 {
+    font-size: 40px;
+    line-height: 45px;
+    padding-bottom: 16px;
+}
+
+.texts2 {
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .landing-hero {
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-    /* background: linear-gradient(90.65deg, #10143B 2.13%, rgba(16, 20, 59, 0.579917) 34.9%, rgba(16, 20, 59, 0) 99.44%); */
-    background-image: url(./Landing\ page/hero-smile.png),linear-gradient(90.65deg, #10143B 2.13%, rgba(16, 20, 59, 0.579917) 34.9%, rgba(16, 20, 59, 0) 99.44%);
+    background: url('./Landing\ page/hero-smile.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    max-height: 736px;
+    height: 740px;
 }
 
-.landing-block {
-
+.landing-cont {
+    background: linear-gradient(90.65deg, #10143B 2.13%, rgba(16, 20, 59, 0.579917) 34.9%, rgba(16, 20, 59, 0) 99.44%);
+    height: 100%;
 }
 
 .lnd-hero__heading {
-    margin-top: 0;
-    color: #10143b;
+    color: #fff;
+    font-size: 56px;
+    line-height: 56px;
+    margin-bottom: 24px;
+    margin-top: 86.03px;
+    max-width: 611px;
+}
+
+.lnd-para {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 48px;
+    max-width: 394px;
 }
 
 .landing-padding{
@@ -43,10 +63,27 @@
     color: #10143B;
 }
 
+.textsA {
+    margin-bottom: 16px;
+}
+
+.textsB {
+    margin-bottom: 32px;
+}
+
+.textsTH {
+    line-height: 45px;
+    margin-bottom: 16px;
+}
+
+.textsTP {
+    margin-bottom: 32px;
+}
+
 /* undecided */
 .landing-und-cont {
     background: #f0f2ff;
-    padding: 20px;
+    padding: 64px 100px;
 }
 
 .undecided-container{
@@ -59,11 +96,12 @@
 }
 .numbers{
     display: flex;
-    margin-top: 15%;
-    justify-content: space-around;
+    margin: 94px 0 114px;
+    justify-content: flex-start;
 }
 .img-number-wrapper{
     display: flex;
+    margin-bottom: 16px; 
     align-items: center;
     justify-content: center;
     border: white;
@@ -73,6 +111,20 @@
 .left{
     width: 60%;
 }
+
+.ah-txt-cont {
+    max-width: 440px;
+}
+
+.ah-num-cont {
+    margin-left: 33px;
+    margin-right: 103px;
+}
+
+.ah-num-cont2 {
+    margin-right: 42px;
+}
+
 /* Featured school */
 .schools{
 
@@ -92,6 +144,10 @@
 .testimonials{
     display: flex;
     column-gap: 24px;
+}
+
+.btn-cont {
+    text-align: end;
 }
 
 /* Articles */
@@ -115,17 +171,24 @@
 .hm-btn-see, .hm-btn.undecided {
     background: #cfa348;
     border-radius: 10px;
-    padding: 25px;
     margin-top: 30px;
     text-align: center;
-    font-size: 17px;
     border: none;
     color: #fff;
-    width: 252px;
     cursor: pointer;
 }
+
+.hm-btn-see {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 101px;
+}
+
 .undecided{
+    font-size: 16px;
+    line-height: 16px;
     margin-top: 15%;
+    padding: 20px 86px;
 }
 
 .featured-container {

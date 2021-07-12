@@ -430,7 +430,7 @@ p {
 
 /* header section */
 .hblue-schpg-container {
-  background: var(--color-main);
+  background: #10143B;
   padding: 33.99px 100px;
     /* padding-top: 33.99px; */
     /* padding-bottom: 33.99px; */
@@ -485,6 +485,14 @@ p {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.nav-links:nth-of-type(1) {
+  margin-left: 50px;
+}
+
+.nav-links:nth-of-type(2) {
+  margin-left: 122px;
 }
 
 .nav-link {

@@ -6,13 +6,13 @@ import testimonial2 from './testimonial 2.png'
 
 const testimonialData=[
     {
-        testimony:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem possimus inventore a officiis nisi, ad nulla et ea aperiam.',
+        testimony:'I love the idea that this platform has birthed. You don’t know how stressful it is to search dozens of platform without actually knowing what you are looking for. Thank you school scout',
         names:'Edijana George',
         status:'Student,Lagos State University',
         image:testimonial1
     },
     {
-        testimony:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem possimus inventore a officiis nisi, ad nulla et ea aperiam.',
+        testimony:'The career advice is exceptional. It gives you a list of courses that would be great for you. I had a course to study in mind, but I just needed to test that feature. And the course I had in mind was part of the 3 suggestions given.',
         names:'Yosef Otu',
         status:'Secondary school graduate',
         image:testimonial2
@@ -38,15 +38,15 @@ const TestimonialCard =(props) =>{
     <>
     <div className='testimonial-container'>
         <div>
-            <p>{testimony}</p>
+            <p className="testimony">{testimony}</p>
         </div>
         <div className='testimonial-card-bottom'>
-            <div>
-                <p>{names}</p>
+            <div className="tst-crd">
+                <p className="testimony-name">{names}</p>
                 <p>{status}</p>
             </div>
-            <div>
-                <img src={image} alt="" />
+            <div className="testimony-profile-container">
+                <img className="testimonial-profile" src={image} alt="" />
             </div>
         </div>
     </div>
