@@ -154,6 +154,7 @@ export const Home = () => {
                     <div></div>
                 </div>
             </section>
+            <Faq/>
 
         </div>
     )

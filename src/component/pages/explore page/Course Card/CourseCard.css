@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@500&display=swap');
+.course-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 187px;
+    height: 82px;
+    background: #dbdeff;
+    gap: 22px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.card-text{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #10143b;
+}
+.coursename{
+    color: #10143b;
+}
+.school{
+    color: #10143b;
+}
+   

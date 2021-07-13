@@ -1,0 +1,15 @@
+.location-lower{
+    display: flex;
+    justify-content: space-between;
+    padding:15px  15px;
+
+
+}
+.location-card{
+    border: 1px solid rgb(207, 205, 205);
+    border-radius: 15px;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.08);
+}
+.location{
+    color: #10143b;
+}
