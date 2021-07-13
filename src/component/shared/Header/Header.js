@@ -6,50 +6,54 @@ import bookmark from '../../pages/Scholarship/images/bookmark.svg'
 import user from '../../pages/Scholarship/images/user.svg'
 import menu from '../../pages/Scholarship/images/menu-bar.svg'
 import '../../pages/Scholarship/Scholarship.css'
+import { Link } from 'react-router-dom'
+import React from 'react'
+
+
 
 export const Header = () => {
     return (
         <header className="schpg-container nav-hero-blend">
             <nav className="block block-center nav-container">
-                <img className="logo" src={ logo } alt="" />
+                <Link to={process.env.PUBLIC_URL + '/'}><img className="logo" src={ logo } alt="" /></Link>
                 <ul className="nav-links">
                     <li className="nav-link">
-                        <a href=".">Explore schools</a>
+                        <Link to={process.env.PUBLIC_URL + '/'}>Explore schools</Link>
                     </li>
                     <li className="nav-link">
-                        <a href=".">Compare schools</a>
+                        <Link to={process.env.PUBLIC_URL + '/'}>Compare schools</Link>
                     </li>
                     <li className="nav-link">
-                        <a href=".">Find scholarship</a>
+                        <Link className="hello" to={process.env.PUBLIC_URL + '/scholarship'}>Find scholarship</Link>
                     </li>
                     <li className="nav-link">
-                        <a href=".">Career advisory</a>
+                        <Link to={process.env.PUBLIC_URL + '/career-advisory'}>Career advisory</Link>
                     </li>
                 </ul>
                 <ul className="nav-links">
                     <li className="nav-link">
-                        <a href="." className="nav-link-with-image">
+                        <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
                             <img className="svg-icon" src={ search } alt="search icon" />
                             Search
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-link">
-                        <a href="." className="nav-link-with-image">
+                        <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
                             <img className="svg-icon" src={ globe } alt="" />                         
                             Language
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-link">
-                        <a href="." className="nav-link-with-image">
+                        <Link to={process.env.PUBLIC_URL + '/login'} className="nav-link-with-image">
                             <img className="svg-icon" src={ user } alt="" />                           
                             User
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-link">
-                        <a href="." className="nav-link-with-image">
+                        <Link to={process.env.PUBLIC_URL + '/'} className="nav-link-with-image">
                             <img className="svg-icon" src={ bookmark } alt="" />                           
                             Saved
-                        </a>
+                        </Link>
                     </li>
                 </ul>
                 <img className="menu" src={ menu } alt="" />
@@ -89,7 +93,7 @@ export const Header = () => {
                                 <option value="doctorate">Australia</option>
                             </select>
                         </div>
-                        <a href="." className="btn btn-small btn-primary btn-search">Search</a>
+                        <Link to={process.env.PUBLIC_URL + '/'} className="btn btn-small btn-primary btn-search">Search</Link>
                     </form>
                 </div>
             </section>

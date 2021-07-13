@@ -1,6 +1,7 @@
 import React from "react";
 import { ScholarshipCard } from "../ScholarshipCard/ScholarshipCard";
 import '../../Scholarship/Scholarship.css'
+import { Link } from 'react-router-dom'
 
 const ProgramCardGrid = () => {
   return (
@@ -10,19 +11,19 @@ const ProgramCardGrid = () => {
         <div className="programs">
           <div className="program-nav">
             <p className="program__text">Search scholarships by programs</p>
-            <a href="./" className="btn btn-tab btn-secondary">
+            <Link to={process.env.PUBLIC_URL + '/'} className="btn btn-tab btn-secondary">
               Undergraduate
-            </a>
-            <a href="./" className="btn btn-tab">
+            </Link>
+            <Link to={process.env.PUBLIC_URL + '/'} className="btn btn-tab">
               Postgraduate
-            </a>
+            </Link>
           </div>
           <div className="grid grid-cols-3">
             <ScholarshipCard></ScholarshipCard>
           </div>
-          <a href="./" className="btn btn-large btn-primary btn-more">
+          <Link to={process.env.PUBLIC_URL + '/scholarship-list'} className="btn btn-large btn-primary btn-more">
             See more
-          </a>
+          </Link>
         </div>
       </div>
     </section>

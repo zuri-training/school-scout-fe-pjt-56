@@ -1,30 +1,70 @@
 import React from 'react'
-import SiteOptions from './site options/SiteOptions'
-import FeaturedSchools from './featured schools/FeaturedSchools'
-import Testimonials from './Testimonials/Testimonials'
-import Articles from './Articles/Articles'
-import Faq from './Landing page/FAQ/Faq'
-import Header from '../component/shared/Header/Header'
+import SiteOptions from '../pages/Landing page/site options/SiteOptions'
+import FeaturedSchools from '../pages/Landing page/featured schools/FeaturedSchools'
+import Testimonials from '../pages/Landing page/Testimonials/Testimonials'
+import Articles from '../pages/Landing page/Articles/Articles'
+import Header from '../shared/ScholarshipHeaderBlue/ScholarshipHeaderBlue'
 import './Home.css'
 
-import image1 from './image1.png'
-import image2 from './image2.png'
-import image3 from './image3.png'
-import undecided from './undecided.png'
+import image1 from '../pages/Landing page/image1.png'
+import image2 from '../pages/Landing page/image2.png'
+import image3 from '../pages/Landing page/image3.png'
+import undecided from '../pages/Landing page/undecided.png'
+import { Link } from 'react-router-dom'
+import './Scholarship/Scholarship.css'
 
-const Home = () => {
+export const Home = () => {
     return (
         <div>
-            <section>
-                
-            </section>
             <Header/>
+            <section className="landing-hero">
+                <div className="schpg-container landing-cont">
+                    <div className="block landing-block">
+                        <h1 className="lnd-hero__heading">Let’s help you make the <br /> best educational choices
+                        </h1>
+                        <p className="lnd-para">You don’t have to travel distances or search a lot of sites. School scouting made easy.</p>
+                        <div className="search-group">
+                            <h2 className="search-group-title">Search for the best scholarship for you</h2>
+                            <form action="" className="search-form">
+                                <div className="search-form__input-group">
+                                    <label for="program">Program</label>
+                                    <select required name="program" id="program" className="search-form__select-list">
+                                        <option value="" selected disabled hidden>Undergraduate</option>
+                                        <option value="graduate">Graduate</option>
+                                        <option value="post graduate">Post Graduate</option>
+                                        <option value="doctorate">Doctorate</option>
+                                    </select>
+                                </div>
+                                <div className="search-form__input-group">
+                                    <label for="program">Course</label>
+                                    <select required name="program" id="program" className="search-form__select-list">
+                                        <option value="" selected disabled hidden>Choose course</option>
+                                        <option value="graduate">Science</option>
+                                        <option value="post graduate">Technology</option>
+                                        <option value="doctorate">Arts</option>
+                                    </select>
+                                </div>
+                                <div className="search-form__input-group">
+                                    <label for="program">Location</label>
+                                    <select required name="program" id="program" className="search-form__select-list">
+                                        <option value="" selected disabled hidden>Enter location</option>
+                                        <option value="graduate">USA</option>
+                                        <option value="post graduate">Canada</option>
+                                        <option value="doctorate">Australia</option>
+                                    </select>
+                                </div>
+                                <Link to={process.env.PUBLIC_URL + '/'} className="btn btn-small btn-primary btn-search">Search</Link>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className='options landing-padding'>
                 <div className="options-container">
                     <div className='options-top-section'>
                         <div className='options-top-text'>
-                            <h2 className='texts'>Find the Best</h2>
-                            <p className='texts'>Begin your research here now, and make the best decision ever</p>
+                            <h2 className='textsA'>Find the Best</h2>
+                            <p className='textsB'>Begin your research here now, and make the best decision ever</p>
                         </div>
                     </div>
                     <div className='options'>
@@ -32,15 +72,15 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="landing-und-cont">
                 <div className='undecided-container landing-padding'>
                     <div className='left'>
-                        <div>
-                            <h2 className='texts'>Undecided about what course to study</h2>
-                            <p className='texts'>let's help you discover what's best for you in 3 easy steps</p>
+                        <div className="ah-txt-cont">
+                            <h2 className='texts1'>Undecided about what course to study</h2>
+                            <p className='texts2'>let's help you discover what's best for you in 3 easy steps</p>
                         </div>
                             <div className='numbers'>
-                                <div>
+                                <div className="ah-num-cont">
                                     <div className="img-number-wrapper">
                                         <img src={image1} alt="" />
                                     </div>
@@ -48,7 +88,7 @@ const Home = () => {
                                     <p className='texts'>Get started</p>
                                 </div>
 
-                                <div>
+                                <div className="ah-num-cont2">
                                     <div className="img-number-wrapper">
                                         <img src={image2} alt="" />
                                     </div>
@@ -64,17 +104,15 @@ const Home = () => {
                                     <p className='texts'>Voila! Your results are ready</p>
                                 </div>
                             </div>
-                        <div>
-                            <button className='undecided'>Get Started</button>
-                        </div>      
+                        <Link to={process.env.PUBLIC_URL + '/career-advisory/cap-2'} className='hm-btn undecided'>Get Started</Link>
                     </div>
                     <div className='undecided4'>
                         <img src={undecided} alt="" />
                     </div>
                 </div>
             </section>
-            <section>
-                <div className="featured-container landing-padding">
+            <section className="landing-padding">
+                <div className="featured-container">
                     <div>
                         <div>
                             <h2>Featured Schools</h2>
@@ -87,22 +125,22 @@ const Home = () => {
                     <div></div>
                 </div>
             </section>
-            <section>
-                <div className="testimonials-container landing-padding">
+            <section className="landing-testimonial-section landing-padding">
+                <div className="testimonials-container">
                     <div>
-                        <h2 className='texts'>Testimonials</h2>
-                        <p className='texts'>What people that have used this website have to say about us.</p>
+                        <h2 className='textsTH'>Testimonials</h2>
+                        <p className='textsTP'>What people that have used this website have to say about us.</p>
                     </div>
                     <div className='testimonials'>
                         <Testimonials/>
                     </div>
-                    <div>
-                        <button>See More</button>
+                    <div className="btn-cont">
+                        <button className="hm-btn-see">See More</button>
                     </div>
                 </div>
             </section>
-            <section>
-                <div className="articles-container landing-padding">
+            <section className="landing-articles-section landing-padding">
+                <div className="articles-container">
                     <div>
                         <div>
                             <h2 className='texts'>Articles</h2>
@@ -117,6 +155,7 @@ const Home = () => {
                 </div>
             </section>
             <Faq/>
+
         </div>
     )
 }

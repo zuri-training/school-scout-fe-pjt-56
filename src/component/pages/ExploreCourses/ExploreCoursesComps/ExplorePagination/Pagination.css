@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul.pagination-Ul {
+  display: flex;
+  margin: 20px 10px;
+}
+.pagination-Li {
+  padding: 0 16px;
+  list-style: none;
+}
+.pagination-link {
+  text-decoration: none;
+  color: blue;
+}
+.paginationPrev,
+.paginationNext {
+  display: flex;
+  width: 5%;
+  justify-content: space-around;
+  align-items: center;
+}
+.wide {
+  width: 7%;
+}
+a:active {
+  background: cadetblue;
+}
