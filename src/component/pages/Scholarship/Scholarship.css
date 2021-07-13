@@ -429,6 +429,13 @@ p {
 }
 
 /* header section */
+.hblue-schpg-container {
+  background: #10143B;
+  padding: 33.99px 100px;
+    /* padding-top: 33.99px; */
+    /* padding-bottom: 33.99px; */
+}
+
 .nav-hero-blend {
   /* content: url(/images/hero.jpg); */
   background-image: url(./images/hero.jpg);
@@ -478,6 +485,14 @@ p {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.nav-links:nth-of-type(1) {
+  margin-left: 50px;
+}
+
+.nav-links:nth-of-type(2) {
+  margin-left: 122px;
 }
 
 .nav-link {
@@ -883,11 +898,13 @@ svg:hover {
 
 .safety-image {
   width: 100%;
+  margin-bottom: 16px;
 }
 
 .safety-caption {
-  margin-top: 16px;
+  /* margin-top: 16px; */
   margin-bottom: 5px;
+  margin-top: 0;
 }
 
 .safety-caption a {
@@ -1192,11 +1209,17 @@ svg:hover {
   background: grey;
     border-radius: 15px;
     overflow: hidden;
+    transition: all 0.3s;
 }
+
+.schlshp-asd-card-body:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
 .schlshp-asd-card-body a {
   text-decoration: none;
 }
-
 
 .schlshp-asd-card-img {
   display: flex;

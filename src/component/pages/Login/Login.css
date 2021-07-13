@@ -1,0 +1,638 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+       ========================================================================== */
+  
+  /**
+     * Remove the margin in all browsers.
+     */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+     * Render the `main` element consistently in IE.
+     */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+     * Correct the font size and margin on `h1` elements within `section` and
+     * `article` contexts in Chrome, Firefox, and Safari.
+     */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+       ========================================================================== */
+  
+  /**
+     * 1. Add the correct box sizing in Firefox.
+     * 2. Show the overflow in Edge and IE.
+     */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+       ========================================================================== */
+  
+  /**
+     * Remove the gray background on active links in IE 10.
+     */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+     * 1. Remove the bottom border in Chrome 57-
+     * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+     */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+     * Add the correct font weight in Chrome, Edge, and Safari.
+     */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+     * Add the correct font size in all browsers.
+     */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+     * Prevent `sub` and `sup` elements from affecting the line height in
+     * all browsers.
+     */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+       ========================================================================== */
+  
+  /**
+     * Remove the border on images inside links in IE 10.
+     */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+       ========================================================================== */
+  
+  /**
+     * 1. Change the font styles in all browsers.
+     * 2. Remove the margin in Firefox and Safari.
+     */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+     * Show the overflow in IE.
+     * 1. Show the overflow in Edge.
+     */
+  
+  button,
+  input {
+    /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+     * Remove the inheritance of text transform in Edge, Firefox, and IE.
+     * 1. Remove the inheritance of text transform in Firefox.
+     */
+  
+  button,
+  select {
+    /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+     * Correct the inability to style clickable types in iOS and Safari.
+     */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+     * Remove the inner border and padding in Firefox.
+     */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+     * Restore the focus styles unset by the previous rule.
+     */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+     * Correct the padding in Firefox.
+     */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+     * 1. Correct the text wrapping in Edge and IE.
+     * 2. Correct the color inheritance from `fieldset` elements in IE.
+     * 3. Remove the padding so developers are not caught out when they zero out
+     *    `fieldset` elements in all browsers.
+     */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+     * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+     */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+     * Remove the default vertical scrollbar in IE 10+.
+     */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+     * 1. Add the correct box sizing in IE 10.
+     * 2. Remove the padding in IE 10.
+     */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+     * Correct the cursor style of increment and decrement buttons in Chrome.
+     */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+     * 1. Correct the odd appearance in Chrome and Safari.
+     * 2. Correct the outline style in Safari.
+     */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+     * Remove the inner padding in Chrome and Safari on macOS.
+     */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+     * 1. Correct the inability to style clickable types in iOS and Safari.
+     * 2. Change font properties to `inherit` in Safari.
+     */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+       ========================================================================== */
+  
+  /*
+     * Add the correct display in Edge, IE 10+, and Firefox.
+     */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+     * Add the correct display in all browsers.
+     */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+       ========================================================================== */
+  
+  /**
+     * Add the correct display in IE 10+.
+     */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+     * Add the correct display in IE 10.
+     */
+  
+  [hidden] {
+    display: none;
+  }
+  
+  /* Color Palette */
+  :root {
+    --color-main: #121212;;
+    --color-secondary: #f4feff;
+    --color-btn-primary: #cfa348;
+    --color-btn-secondary: #f2f3ff;
+    --color-btn-nav: #10143b;
+    --color-footer: #0c0f2b;
+    --color-plain: #ffffff;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Typography */
+  ::selection {
+    background-color: var(--color-main);
+    color: var(--color-plain);
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    /* color: var(--color-body); */
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.397rem;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  a {
+    color: var(--color-plain);
+  }
+  
+  h1 {
+    font-size: 5.6rem;
+    font-weight: 600;
+    line-height: 6.261rem;
+  }
+  
+  h2 {
+    font-size: 4rem;
+  }
+  
+  h3 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.198rem;
+  }
+  
+  p {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  /* normalize.css ends here */
+
+  .login-section {
+    background: url('./images/Frame\ 138.png');
+      padding: 64px 276px 46px 268px;
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+.app-login-container, .app-sgnup-container {
+  background: white;
+    column-gap: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-height: 602px;
+    max-width: 896px;
+}
+
+.app-sgnup-container {
+  max-height: 661px;
+}
+
+.app-login-img {
+    /* background-image: url('./images/login.png'); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/login.png');
+    height: 602px;
+    width: 368px;
+}
+
+.app-signup-img {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../SignUp/images/signup.png');
+      /* height: 602px; */
+      width: 368px;
+}
+
+.app-login-heading, .app-sgnup-heading {
+    color: var(--color-main);
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 5rem;
+    /* margin-top: 60px; */
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.app-sgnup-heading {
+  line-height: 45px;
+  margin-top: 0;
+}
+
+.app-login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 58px 40px 60px;
+    text-align: center;
+}
+
+.app-sgnup-input-grp {
+  display: flex;
+  column-gap: 32px;
+}
+
+.app-login-input {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 4rem;
+    padding-bottom: 0.8rem;
+    max-width: 400px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #DCDCDC;
+    outline: 0;
+}
+
+.app-sgnup-input-left, .app-login-input-left {
+    margin-left: 0;
+    margin-right: -3px;
+
+}
+
+.app-login-pwd-mask {
+    margin-left: -14px;
+    align-self: flex-end;
+    margin-bottom: 8px;
+}
+
+.app-login-pwd-mask:hover,
+.app-login-fgt-pwd:hover,
+.app-login-btn:hover,
+.app-login-btn-google:hover,
+.app-sgnup-btn:hover {
+    cursor: pointer;
+}
+
+.app-login-fgt-pwd, .app-sgnup-tnc {
+    margin-bottom: 32px;
+    text-align: end;
+    color: #263AFF;;
+    text-decoration: none;
+}
+
+.app-sgnup-tnc {
+  color: var(--color-btn-primary);
+}
+
+.app-sgnup-tnc {
+  margin-bottom: 0;
+  margin-left: 3px;
+  font-size: 14px;
+  line-height: 21px;
+
+}
+
+.app-login-btn, 
+.app-login-btn-google {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.app-login-btn,
+.app-sgnup-btn  {
+  border-radius: 10px;
+  background-color: var(--color-btn-primary);
+}
+
+.app-login-btn {
+    padding: 16px 181px;
+}
+
+.app-sgnup-btn {
+  /* padding: 16px 174px; */
+  font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.app-login-btn-google {
+    align-items: center;
+    background-color: white;
+    border: 1px solid #C0C6FC;
+    border-radius: 15px;
+    color: #121212;
+    /* padding: 16px 114px 16px 114px; */
+    padding: 16px 0 16px 0;
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lbl-or {
+    color: #121212;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0;
+}
+
+.app-login-pwd-container {
+    display: flex;
+}
+
+.app-login-sgnup {
+    color: var(--color-main);
+    margin-top: 24px;
+}
+
+.lbl-or, .app-login-sgnup,
+.app-login-sgnup-lnk  {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.app-login-sgnup-lnk {
+    color: var(--color-btn-primary);
+}
+
+.app-sgnup-chkbx {
+  align-items: center;
+  display: flex;
+  margin-top: 14px;
+    margin-bottom: 29px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.app-sgnup-chkbx input {
+  margin-right: 3px;
+}
+
+.app-sgnup-input {
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 3.2rem;
+  padding-bottom: 0.8rem;
+  max-width: 400px;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #DCDCDC;
+  outline: 0;
+}
+
+.app-sgnup-form {
+  padding: 60px 64px 60px 64px;
+}
+
+.app-login-sgnup-lnk {
+  color: var(--color-btn-primary);
+  text-decoration: none;
+}
+
+.app-login-form {
+  padding: 0;
+}
