@@ -10,7 +10,7 @@ import { ScholarshipAsideCardGrid } from './component/pages/ScholarshipList/Scho
 // import LocationCardGrid from './component/LocationCardGrid/LocationCardGrid';
 // import Header from './component/Header/Header'
 // import { ScholarshipBlock } from './component/ScholarshipBlock/ScholarshipBlock'
-
+import Explore from './component/pages/explore page/Explore'
 function App() {
   return (
     <> 
