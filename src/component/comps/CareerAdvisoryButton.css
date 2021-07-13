@@ -1,0 +1,31 @@
+.cad-btn-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px 100px;
+}
+
+.cad-cab-btn {
+    /* background-color: wheat; */
+}
+
+.cad-btn-back {
+    background-color: white;
+    border: 1px solid #CFA348;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 17px;
+    padding: 16px 118px;
+    max-width: 268px;
+    border-radius: 10px;
+}
+
+.cad-btn-back * {
+    color: #121212;
+}
+
+.cad-btn-link {
+    font-size: 16px;
+    line-height: 24px;
+}
